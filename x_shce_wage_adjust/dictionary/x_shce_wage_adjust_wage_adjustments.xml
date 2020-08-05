@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" type="collection"/>
+    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="2" type="collection">
+        <element choice="3" default="1" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Add to Next Check" value="1"/>
+                <element inactive_on_update="false" label="Manual Check (&gt;8 hours)" value="2"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of Request" mandatory="true" max_length="40" name="date_of_request" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Home Department #" max_length="40" name="employee_home_department" type="string"/>
+        <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="string"/>
+        <element display="true" label="History" max_length="4000" name="history" type="journal"/>
+        <element label="Reason for adjustment" mandatory="true" max_length="5000" name="reason_for_adjustment" type="string"/>
+    </element>
 </database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number_of_hours" label="Number of Hours" language="en" table="x_shce_wage_adjust_wage_adjustment_calculations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_hours</element>
+            <help/>
+            <hint/>
+            <label>Number of Hours</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustment_calculations</name>
+            <plural>Number of Hours</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 20:43:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cd7fe31e1b1e9810a649ece66e4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Hours</sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_documentation_x_shce_wage_adjust_wage_adjustment_calculations_number_of_hours_en</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 20:43:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

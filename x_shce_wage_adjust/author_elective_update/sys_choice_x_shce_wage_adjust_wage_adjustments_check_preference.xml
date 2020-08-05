@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="check_preference" table="x_shce_wage_adjust_wage_adjustments" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>check_preference</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add to Next Check</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 19:23:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7aabdb561bda9810a649ece66e4bcb91</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 19:23:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>check_preference</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manual Check (&gt;8 hours)</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 19:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f71d5f561bda9810a649ece66e4bcb75</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 19:23:30</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>check_preference</element>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 19:23:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e71d5f561bda9810a649ece66e4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>check_preference</sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_choice_x_shce_wage_adjust_wage_adjustments_check_preference</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 19:23:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

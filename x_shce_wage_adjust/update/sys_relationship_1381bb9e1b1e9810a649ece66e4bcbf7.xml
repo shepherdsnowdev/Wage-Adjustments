@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_shce_wage_adjust_wage_adjustments</basic_apply_to>
+        <basic_query_from>x_shce_wage_adjust_wage_adjustment_calculations</basic_query_from>
+        <insert_callback/>
+        <name>Calculation of Corrections</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('parent_waf', parent.sys_id);]]></query_with>
+        <reference_field>parent_waf</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-07-31 20:55:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1381bb9e1b1e9810a649ece66e4bcbf7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculation of Corrections</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_relationship_1381bb9e1b1e9810a649ece66e4bcbf7</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-07-31 21:09:08</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=1381bb9e1b1e9810a649ece66e4bcbf7"/>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_shce_wage_adjust_wage_adjustments" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Wage Adjustments - Default view" name="x_shce_wage_adjust_wage_adjustments" related_list="NULL" sys_domain="global" view="Default view">8652b39e1b1e9810a649ece66e4bcb59</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:1381bb9e1b1e9810a649ece66e4bcbf7</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 20:56:02</sys_created_on>
+            <sys_id>8a52b39e1b1e9810a649ece66e4bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 20:56:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Wage Adjustments - Default view</calculated_name>
+            <filter/>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 20:56:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8652b39e1b1e9810a649ece66e4bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Wage Adjustments - Default view</sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 20:56:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

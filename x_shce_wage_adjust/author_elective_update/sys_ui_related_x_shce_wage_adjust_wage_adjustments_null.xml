@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_shce_wage_adjust_wage_adjustments" version="2" view="">
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Wage Adjustments - </calculated_name>
+            <filter/>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 20:49:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3de07f5e1b1e9810a649ece66e4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Wage Adjustments - </sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 20:49:51</sys_updated_on>
+            <sys_user/>
+            <view/>
+            <view_name/>
+        </sys_ui_related_list>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Wage Adjustments - </calculated_name>
+            <filter/>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-07-31 20:49:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3de07f5e1b1e9810a649ece66e4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Wage Adjustments - </sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-07-31 20:49:51</sys_updated_on>
+            <sys_user/>
+            <view/>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_shce_wage_adjust_wage_adjustments" version="2" view=""><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Wage Adjustments - </calculated_name><filter/><name>x_shce_wage_adjust_wage_adjustments</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2020-07-31 20:49:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3de07f5e1b1e9810a649ece66e4bcb97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Wage Adjustments - </sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2020-07-31 20:49:51</sys_updated_on><sys_user/><view/><view_name/></sys_ui_related_list><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Wage Adjustments - </calculated_name><filter/><name>x_shce_wage_adjust_wage_adjustments</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2020-07-31 20:49:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3de07f5e1b1e9810a649ece66e4bcb97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Wage Adjustments - </sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2020-07-31 20:49:51</sys_updated_on><sys_user/><view/><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-496546564</payload_hash>
+        <record_name>Wage Adjustments</record_name>
+        <reverted_from/>
+        <source>09051f1e1b9a9810a649ece66e4bcb5f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-07-31 20:50:50</sys_created_on>
+        <sys_id>b121f39e1b1e9810a649ece66e4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173a6a444a10000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-07-31 20:50:50</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>7121f39e421e9810dcb58d6294681b6e</update_guid>
+        <update_guid_history>7121f39e421e9810dcb58d6294681b6e:-496546564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-07-31 20:50:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>07286fe7f2bb420281cf23ef5b542859</sys_id>
+        <sys_metadata>3de07f5e1b1e9810a649ece66e4bcb97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wage Adjustments - </sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent display_value="Wage Adjustments">7f84531e1b9a9810a649ece66e4bcb60</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_shce_wage_adjust_wage_adjustments_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_shce_wage_adjust_wage_adjustments_null">b121f39e1b1e9810a649ece66e4bcb6e</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-07-31 20:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
