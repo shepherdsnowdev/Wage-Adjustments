@@ -1,170 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="7ccba3d61b1e9810a649ece66e4bcb22" sys_domain="global" table="x_shce_wage_adjust_wage_adjustments" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employee_name</element>
+            <element>date_of_request</element>
             <position>0</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>edb33553db56d010a2e5f482ba961956</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>cbfa0724dbaa5050daa50825ca961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_name</element>
+            <position>1</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>47fa0724dbaa5050daa50825ca961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_name.employee_number</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>61b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>cbfa0724dbaa5050daa50825ca961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_name.department.id</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>e1b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>43fa0724dbaa5050daa50825ca961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>check_preference</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>65b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>c7fa0724dbaa5050daa50825ca961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>e5b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>4ffa0724dbaa5050daa50825ca961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>69b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>c3fa0724dbaa5050daa50825ca961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>e9b33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>4bfa0724dbaa5050daa50825ca961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>6db33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>cffa0724dbaa5050daa50825ca961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>edb33553db56d010a2e5f482ba961957</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>47fa0724dbaa5050daa50825ca961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
-            <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>61b33553db56d010a2e5f482ba961958</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
-            <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
             <position>10</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>e1b33553db56d010a2e5f482ba961958</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>cbfa0724dbaa5050daa50825ca961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>11</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-03 14:16:41</sys_created_on>
-            <sys_id>65b33553db56d010a2e5f482ba961958</sys_id>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>43fa0724dbaa5050daa50825ca961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-03 14:16:41</sys_updated_on>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>denial_reason</element>
+            <position>12</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-08-07 17:50:24</sys_created_on>
+            <sys_id>c7fa0724dbaa5050daa50825ca961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-08-07 17:50:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test_t_f</element>
+            <position>13</position>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-08-07 19:00:34</sys_created_on>
+            <sys_id>ba0b13e4dbea5050daa50825ca9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-08-07 19:00:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

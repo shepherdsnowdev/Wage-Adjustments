@@ -7,10 +7,12 @@
             </choice>
         </element>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of Request" mandatory="true" max_length="40" name="date_of_request" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Denial Reason" max_length="1000" name="denial_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Home Department #" max_length="40" name="employee_home_department" type="string"/>
         <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
         <element label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="string"/>
         <element display="true" label="History" max_length="4000" name="history" type="journal"/>
         <element label="Reason for adjustment" mandatory="true" max_length="5000" name="reason_for_adjustment" type="string"/>
+        <element default="true" label="Test True/False field" max_length="40" name="test_t_f" type="boolean"/>
     </element>
 </database>

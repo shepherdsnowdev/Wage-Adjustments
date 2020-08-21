@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch4-05-20-2020</compiler_build>
+        <copied_from>918cb76bdb9e1410a2e5f482ba96197a</copied_from>
+        <copied_from_name>Approved WA notifications</copied_from_name>
+        <description>- sends email to New Wage Adjustments Email Recipients
+- sends email to creator
+- changes status to "Submitted for Approval"</description>
+        <internal_name>denied_wa_notifications</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Wage Adjustments Record","reference":"x_shce_wage_adjust_wage_adjustments","reference_display":"Wage Adjustments","type":"reference","base_type":"reference","attributes":{}},{"name":"5607f9ed-83e6-4945-b4d7-69d3ab373732.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.employee_name.email","label":"Trigger➛Wage Adjustments Record➛Employee Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <latest_snapshot>47c05c48db229410a2e5f482ba961998</latest_snapshot>
+        <master_snapshot>47c05c48db229410a2e5f482ba961998</master_snapshot>
+        <name>Denied WA notifications</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>4bc05c48db229410a2e5f482ba9619d9</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3180d448db229410a2e5f482ba96195f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Denied WA notifications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_hub_flow_3180d448db229410a2e5f482ba96195f</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=3180d448db229410a2e5f482ba96195f"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_shce_wage_adjust_wage_adjustments">state=3<item display_value="Denied" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4bc05c48db229410a2e5f482ba9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:59</sys_updated_on>
+        <table>x_shce_wage_adjust_wage_adjustments</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="DELETE" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT INb580d448db229410a2e5f482ba961980"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b580d448db229410a2e5f482ba961980</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b580d448db229410a2e5f482ba961980"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>8a80d448db229410a2e5f482ba961984</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:50</sys_updated_on>
+        <value>Your wage adjustment has been denied.</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>c680d448db229410a2e5f482ba961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>fd80d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:16</sys_updated_on>
+        <value/>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=b580d448db229410a2e5f482ba961980"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>7d80d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Click here to see the record:&amp;nbsp; &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;Trigger➛Wage Adjustments Record&lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>b980d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>f180d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Updated_1.current.employee_name.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT IN0280d448db229410a2e5f482ba961985"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0280d448db229410a2e5f482ba961985</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=0280d448db229410a2e5f482ba961985"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0280d448db229410a2e5f482ba961985</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>4280d448db229410a2e5f482ba961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <value>x_shce_wage_adjust_wage_adjustments</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0280d448db229410a2e5f482ba961985</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>8e80d448db229410a2e5f482ba961985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:50</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0280d448db229410a2e5f482ba961985</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:13:40</sys_created_on>
+        <sys_id>b7e3548cdb229410a2e5f482ba96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:13:40</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=3180d448db229410a2e5f482ba96195f^sys_idNOT IN7980d448db229410a2e5f482ba961961"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>3180d448db229410a2e5f482ba96195f</id>
+        <name>Denied WA notifications</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7980d448db229410a2e5f482ba961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=3180d448db229410a2e5f482ba96195f^sys_idNOT IN3580d448db229410a2e5f482ba961971,7980d448db229410a2e5f482ba961976,bd80d448db229410a2e5f482ba961969"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</model>
+        <model_id>3180d448db229410a2e5f482ba96195f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3580d448db229410a2e5f482ba961971</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1a84d4cce12294109cfe303db1989284,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</model>
+        <model_id>3180d448db229410a2e5f482ba96195f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7980d448db229410a2e5f482ba961976</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</model>
+        <model_id>3180d448db229410a2e5f482ba96195f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bd80d448db229410a2e5f482ba961969</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT INb580d448db229410a2e5f482ba961980"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b580d448db229410a2e5f482ba961980</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b580d448db229410a2e5f482ba961980"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>8a80d448db229410a2e5f482ba961984</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:50</sys_updated_on>
+        <value>Your wage adjustment has been denied.</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>c680d448db229410a2e5f482ba961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b580d448db229410a2e5f482ba961980</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>fd80d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:16</sys_updated_on>
+        <value/>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=b580d448db229410a2e5f482ba961980"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>7d80d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Click here to see the record:&amp;nbsp; &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;Trigger➛Wage Adjustments Record&lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>b980d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>b580d448db229410a2e5f482ba961980</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>f180d448db229410a2e5f482ba961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Updated_1.current.employee_name.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=b580d448db229410a2e5f482ba961980^sys_idNOT INf180d448db229410a2e5f482ba961982"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>ah_to</input_name>
+        <instance>b580d448db229410a2e5f482ba961980</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_to":{"scriptActive":false}}</script>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>f180d448db229410a2e5f482ba961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=3180d448db229410a2e5f482ba96195f^sys_idNOT IN6a84d4ccdb229410a2e5f482ba9619e1,a684d4ccdb229410a2e5f482ba9619e1"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>3180d448db229410a2e5f482ba96195f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:16:19</sys_created_on>
+        <sys_id>6a84d4ccdb229410a2e5f482ba9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8ae4cedf-2f15-42ae-90f6-e903e29492d5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>3180d448db229410a2e5f482ba96195f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:16:19</sys_created_on>
+        <sys_id>a684d4ccdb229410a2e5f482ba9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af17f59e-a64b-4233-bd19-47ff561dfecf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f^sys_idNOT IN7980d448db229410a2e5f482ba96196f,f180d448db229410a2e5f482ba961975,fd80d448db229410a2e5f482ba96197a"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7980d448db229410a2e5f482ba96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f180d448db229410a2e5f482ba961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fd80d448db229410a2e5f482ba96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:58:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=3180d448db229410a2e5f482ba96195f^sys_idNOT IN17c05c48db229410a2e5f482ba9619da"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"17c05c48db229410a2e5f482ba9619da","name":"plan"}}</plan>
+        <plan_id>3180d448db229410a2e5f482ba96195f</plan_id>
+        <snapshot>47c05c48db229410a2e5f482ba961998</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>17c05c48db229410a2e5f482ba9619da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <trigger display_value="">4bc05c48db229410a2e5f482ba9619d9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>- sends email to New Wage Adjustments Email Recipients
+- sends email to creator
+- changes status to "Submitted for Approval"</description>
+        <internal_name>denied_wa_notifications</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Wage Adjustments Record","reference":"x_shce_wage_adjust_wage_adjustments","reference_display":"Wage Adjustments","type":"reference","base_type":"reference","attributes":{}},{"name":"5607f9ed-83e6-4945-b4d7-69d3ab373732.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.employee_name.email","label":"Trigger➛Wage Adjustments Record➛Employee Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <master>true</master>
+        <name>Denied WA notifications</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Denied WA notifications">3180d448db229410a2e5f482ba96195f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>47c05c48db229410a2e5f482ba961998</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="DELETE" query="document_key=47c05c48db229410a2e5f482ba961998"/>
+    <sys_hub_flow_component action="DELETE" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT INc7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c7c05c48db229410a2e5f482ba9619c7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>4fc05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value>Your wage adjustment has been denied.</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>8bc05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>c7c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <value/>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>47c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Click here to see the record:&amp;nbsp; &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;Trigger➛Wage Adjustments Record&lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>83c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>cfc05c48db229410a2e5f482ba9619c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Updated_1.current.employee_name.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT IN43c05c48db229410a2e5f482ba9619ca"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>43c05c48db229410a2e5f482ba9619ca</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:19</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=43c05c48db229410a2e5f482ba9619ca"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43c05c48db229410a2e5f482ba9619ca</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>4bc05c48db229410a2e5f482ba9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value>x_shce_wage_adjust_wage_adjustments</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43c05c48db229410a2e5f482ba9619ca</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:13:42</sys_created_on>
+        <sys_id>54f3548cdb229410a2e5f482ba9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:13:42</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43c05c48db229410a2e5f482ba9619ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>87c05c48db229410a2e5f482ba9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=47c05c48db229410a2e5f482ba961998^sys_idNOT IN87c05c48db229410a2e5f482ba961999"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>47c05c48db229410a2e5f482ba961998</id>
+        <name>Denied WA notifications</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87c05c48db229410a2e5f482ba961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=47c05c48db229410a2e5f482ba961998^sys_idNOT IN07c05c48db229410a2e5f482ba96199c,0bc05c48db229410a2e5f482ba9619af,8bc05c48db229410a2e5f482ba9619b8"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</model>
+        <model_id>47c05c48db229410a2e5f482ba961998</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>07c05c48db229410a2e5f482ba96199c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1a84d4cce12294109cfe303db1989284,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</model>
+        <model_id>47c05c48db229410a2e5f482ba961998</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0bc05c48db229410a2e5f482ba9619af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</model>
+        <model_id>47c05c48db229410a2e5f482ba961998</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bc05c48db229410a2e5f482ba9619b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT INc7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Denied WA notifications">47c05c48db229410a2e5f482ba961998</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c7c05c48db229410a2e5f482ba9619c7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>4fc05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value>Your wage adjustment has been denied.</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>8bc05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c7c05c48db229410a2e5f482ba9619c7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>c7c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <value/>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c7c05c48db229410a2e5f482ba9619c7"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>47c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Click here to see the record:&amp;nbsp; &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&gt;Trigger➛Wage Adjustments Record&lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>83c05c48db229410a2e5f482ba9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>c7c05c48db229410a2e5f482ba9619c7</id>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>cfc05c48db229410a2e5f482ba9619c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Updated_1.current.employee_name.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=c7c05c48db229410a2e5f482ba9619c7^sys_idNOT INc7c05c48db229410a2e5f482ba9619c8"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>ah_to</input_name>
+        <instance>c7c05c48db229410a2e5f482ba9619c7</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_to":{"scriptActive":false}}</script>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>c7c05c48db229410a2e5f482ba9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=47c05c48db229410a2e5f482ba961998^sys_idNOT IN0fc05c48db229410a2e5f482ba9619cb,2cf3948cdb229410a2e5f482ba96191a,4e80d448db229410a2e5f482ba961988,8fc05c48db229410a2e5f482ba9619cb,c280d448db229410a2e5f482ba961989,ecf3948cdb229410a2e5f482ba96191a"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>0fc05c48db229410a2e5f482ba9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af17f59e-a64b-4233-bd19-47ff561dfecf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:13:44</sys_created_on>
+        <sys_id>2cf3948cdb229410a2e5f482ba96191a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af17f59e-a64b-4233-bd19-47ff561dfecf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>4e80d448db229410a2e5f482ba961988</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:13:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af17f59e-a64b-4233-bd19-47ff561dfecf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_id>8fc05c48db229410a2e5f482ba9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8ae4cedf-2f15-42ae-90f6-e903e29492d5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:58:48</sys_created_on>
+        <sys_id>c280d448db229410a2e5f482ba961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:13:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8ae4cedf-2f15-42ae-90f6-e903e29492d5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>47c05c48db229410a2e5f482ba961998</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:13:44</sys_created_on>
+        <sys_id>ecf3948cdb229410a2e5f482ba96191a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 15:16:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8ae4cedf-2f15-42ae-90f6-e903e29492d5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998^sys_idNOT IN03c05c48db229410a2e5f482ba9619a1,0bc05c48db229410a2e5f482ba9619bd,8bc05c48db229410a2e5f482ba9619b4"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>03c05c48db229410a2e5f482ba9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0bc05c48db229410a2e5f482ba9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 14:59:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bc05c48db229410a2e5f482ba9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-05 14:59:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_hub_flow_3180d448db229410a2e5f482ba96195f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-orlando-12-11-2019__patch4-05-20-2020&lt;/compiler_build&gt;&lt;copied_from&gt;918cb76bdb9e1410a2e5f482ba96197a&lt;/copied_from&gt;&lt;copied_from_name&gt;Approved WA notifications&lt;/copied_from_name&gt;&lt;description&gt;- sends email to New Wage Adjustments Email Recipients
+- sends email to creator
+- changes status to "Submitted for Approval"&lt;/description&gt;&lt;internal_name&gt;denied_wa_notifications&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current","label":"Trigger➛Wage Adjustments Record","reference":"x_shce_wage_adjust_wage_adjustments","reference_display":"Wage Adjustments","type":"reference","base_type":"reference","attributes":{}},{"name":"5607f9ed-83e6-4945-b4d7-69d3ab373732.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.employee_name.email","label":"Trigger➛Wage Adjustments Record➛Employee Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]&lt;/label_cache&gt;&lt;latest_snapshot&gt;47c05c48db229410a2e5f482ba961998&lt;/latest_snapshot&gt;&lt;master_snapshot&gt;47c05c48db229410a2e5f482ba961998&lt;/master_snapshot&gt;&lt;name&gt;Denied WA notifications&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id&gt;4bc05c48db229410a2e5f482ba9619d9&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:47&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;3180d448db229410a2e5f482ba96195f&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Denied WA notifications&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_3180d448db229410a2e5f482ba96195f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3180d448db229410a2e5f482ba96195f"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_shce_wage_adjust_wage_adjustments"&gt;state=3&lt;item display_value="Denied" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;false&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;4bc05c48db229410a2e5f482ba9619d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:59&lt;/sys_updated_on&gt;&lt;table&gt;x_shce_wage_adjust_wage_adjustments&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT INb580d448db229410a2e5f482ba961980"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;716281160b100300d97d8bf637673ac7&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;716281160b100300d97d8bf637673ac7&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b580d448db229410a2e5f482ba961980&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;ui_id&gt;5607f9ed-83e6-4945-b4d7-69d3ab373732&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b580d448db229410a2e5f482ba961980"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;8a80d448db229410a2e5f482ba961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:50&lt;/sys_updated_on&gt;&lt;value&gt;Your wage adjustment has been denied.&lt;/value&gt;&lt;variable display_value=""&gt;0a62c1160b100300d97d8bf637673a05&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c680d448db229410a2e5f482ba961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;4e62c1160b100300d97d8bf637673a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;fd80d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:16&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;ce6281160b100300d97d8bf637673ac9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b580d448db229410a2e5f482ba961980"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;7d80d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Click here to see the record:&amp;amp;nbsp; &amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;Trigger➛Wage Adjustments Record&amp;lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p data-tinymcerootblock=""&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;b980d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;f180d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:16&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;{{Updated_1.current.employee_name.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT IN0280d448db229410a2e5f482ba961985"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0280d448db229410a2e5f482ba961985&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0280d448db229410a2e5f482ba961985"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;0280d448db229410a2e5f482ba961985&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;4280d448db229410a2e5f482ba961986&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;value&gt;x_shce_wage_adjust_wage_adjustments&lt;/value&gt;&lt;variable display_value=""&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;0280d448db229410a2e5f482ba961985&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;8e80d448db229410a2e5f482ba961985&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:50&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value=""&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;0280d448db229410a2e5f482ba961985&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:13:40&lt;/sys_created_on&gt;&lt;sys_id&gt;b7e3548cdb229410a2e5f482ba96194c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:13:40&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value=""&gt;c19523d8c31932002841b63b12d3aea1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=3180d448db229410a2e5f482ba96195f^sys_idNOT IN7980d448db229410a2e5f482ba961961"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;3180d448db229410a2e5f482ba96195f&lt;/id&gt;&lt;name&gt;Denied WA notifications&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:47&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7980d448db229410a2e5f482ba961961&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:47&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=3180d448db229410a2e5f482ba96195f^sys_idNOT IN3580d448db229410a2e5f482ba961971,7980d448db229410a2e5f482ba961976,bd80d448db229410a2e5f482ba961969"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/model&gt;&lt;model_id&gt;3180d448db229410a2e5f482ba96195f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;3580d448db229410a2e5f482ba961971&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1a84d4cce12294109cfe303db1989284,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/model&gt;&lt;model_id&gt;3180d448db229410a2e5f482ba96195f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7980d448db229410a2e5f482ba961976&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/model&gt;&lt;model_id&gt;3180d448db229410a2e5f482ba96195f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;bd80d448db229410a2e5f482ba961969&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=3180d448db229410a2e5f482ba96195f^sys_idNOT INb580d448db229410a2e5f482ba961980"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;716281160b100300d97d8bf637673ac7&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;716281160b100300d97d8bf637673ac7&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b580d448db229410a2e5f482ba961980&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;ui_id&gt;5607f9ed-83e6-4945-b4d7-69d3ab373732&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b580d448db229410a2e5f482ba961980"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;8a80d448db229410a2e5f482ba961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:50&lt;/sys_updated_on&gt;&lt;value&gt;Your wage adjustment has been denied.&lt;/value&gt;&lt;variable display_value=""&gt;0a62c1160b100300d97d8bf637673a05&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c680d448db229410a2e5f482ba961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;4e62c1160b100300d97d8bf637673a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b580d448db229410a2e5f482ba961980&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;fd80d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:16&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;ce6281160b100300d97d8bf637673ac9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b580d448db229410a2e5f482ba961980"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;7d80d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Click here to see the record:&amp;amp;nbsp; &amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;Trigger➛Wage Adjustments Record&amp;lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p data-tinymcerootblock=""&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;b980d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;b580d448db229410a2e5f482ba961980&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;f180d448db229410a2e5f482ba961983&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:16&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;{{Updated_1.current.employee_name.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b580d448db229410a2e5f482ba961980^sys_idNOT INf180d448db229410a2e5f482ba961982"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;ah_to&lt;/input_name&gt;&lt;instance&gt;b580d448db229410a2e5f482ba961980&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_instance&lt;/referenced_table&gt;&lt;script&gt;{"ah_to":{"scriptActive":false}}&lt;/script&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;f180d448db229410a2e5f482ba961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=3180d448db229410a2e5f482ba96195f^sys_idNOT IN6a84d4ccdb229410a2e5f482ba9619e1,a684d4ccdb229410a2e5f482ba9619e1"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;3180d448db229410a2e5f482ba96195f&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:16:19&lt;/sys_created_on&gt;&lt;sys_id&gt;6a84d4ccdb229410a2e5f482ba9619e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;8ae4cedf-2f15-42ae-90f6-e903e29492d5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;3180d448db229410a2e5f482ba96195f&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:16:19&lt;/sys_created_on&gt;&lt;sys_id&gt;a684d4ccdb229410a2e5f482ba9619e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;af17f59e-a64b-4233-bd19-47ff561dfecf&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f^sys_idNOT IN7980d448db229410a2e5f482ba96196f,f180d448db229410a2e5f482ba961975,fd80d448db229410a2e5f482ba96197a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7980d448db229410a2e5f482ba96196f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;f180d448db229410a2e5f482ba961975&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3180d448db229410a2e5f482ba96195f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;fd80d448db229410a2e5f482ba96197a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:58:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=3180d448db229410a2e5f482ba96195f^sys_idNOT IN17c05c48db229410a2e5f482ba9619da"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.Every&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"17c05c48db229410a2e5f482ba9619da","name":"plan"}}&lt;/plan&gt;&lt;plan_id&gt;3180d448db229410a2e5f482ba96195f&lt;/plan_id&gt;&lt;snapshot&gt;47c05c48db229410a2e5f482ba961998&lt;/snapshot&gt;&lt;sys_class_name&gt;sys_flow_trigger_plan&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:59&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;17c05c48db229410a2e5f482ba9619da&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;4bc05c48db229410a2e5f482ba9619d9&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;- sends email to New Wage Adjustments Email Recipients
+- sends email to creator
+- changes status to "Submitted for Approval"&lt;/description&gt;&lt;internal_name&gt;denied_wa_notifications&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current","label":"Trigger➛Wage Adjustments Record","reference":"x_shce_wage_adjust_wage_adjustments","reference_display":"Wage Adjustments","type":"reference","base_type":"reference","attributes":{}},{"name":"5607f9ed-83e6-4945-b4d7-69d3ab373732.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.employee_name.email","label":"Trigger➛Wage Adjustments Record➛Employee Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Denied WA notifications&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Denied WA notifications"&gt;3180d448db229410a2e5f482ba96195f&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;47c05c48db229410a2e5f482ba961998&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=47c05c48db229410a2e5f482ba961998"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT INc7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;716281160b100300d97d8bf637673ac7&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;716281160b100300d97d8bf637673ac7&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;ui_id&gt;5607f9ed-83e6-4945-b4d7-69d3ab373732&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4fc05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value&gt;Your wage adjustment has been denied.&lt;/value&gt;&lt;variable display_value=""&gt;0a62c1160b100300d97d8bf637673a05&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;8bc05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;4e62c1160b100300d97d8bf637673a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c7c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;ce6281160b100300d97d8bf637673ac9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;47c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Click here to see the record:&amp;amp;nbsp; &amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;Trigger➛Wage Adjustments Record&amp;lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p data-tinymcerootblock=""&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;83c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;cfc05c48db229410a2e5f482ba9619c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;{{Updated_1.current.employee_name.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT IN43c05c48db229410a2e5f482ba9619ca"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;43c05c48db229410a2e5f482ba9619ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:19&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=43c05c48db229410a2e5f482ba9619ca"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;43c05c48db229410a2e5f482ba9619ca&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4bc05c48db229410a2e5f482ba9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value&gt;x_shce_wage_adjust_wage_adjustments&lt;/value&gt;&lt;variable display_value=""&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;43c05c48db229410a2e5f482ba9619ca&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:13:42&lt;/sys_created_on&gt;&lt;sys_id&gt;54f3548cdb229410a2e5f482ba9619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:13:42&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value=""&gt;c19523d8c31932002841b63b12d3aea1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;43c05c48db229410a2e5f482ba9619ca&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;87c05c48db229410a2e5f482ba9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value=""&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=47c05c48db229410a2e5f482ba961998^sys_idNOT IN87c05c48db229410a2e5f482ba961999"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;47c05c48db229410a2e5f482ba961998&lt;/id&gt;&lt;name&gt;Denied WA notifications&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;87c05c48db229410a2e5f482ba961999&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=47c05c48db229410a2e5f482ba961998^sys_idNOT IN07c05c48db229410a2e5f482ba96199c,0bc05c48db229410a2e5f482ba9619af,8bc05c48db229410a2e5f482ba9619b8"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/model&gt;&lt;model_id&gt;47c05c48db229410a2e5f482ba961998&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;07c05c48db229410a2e5f482ba96199c&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1a84d4cce12294109cfe303db1989284,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/model&gt;&lt;model_id&gt;47c05c48db229410a2e5f482ba961998&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0bc05c48db229410a2e5f482ba9619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/model&gt;&lt;model_id&gt;47c05c48db229410a2e5f482ba961998&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;8bc05c48db229410a2e5f482ba9619b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=47c05c48db229410a2e5f482ba961998^sys_idNOT INc7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;716281160b100300d97d8bf637673ac7&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;716281160b100300d97d8bf637673ac7&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Denied WA notifications"&gt;47c05c48db229410a2e5f482ba961998&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;ui_id&gt;5607f9ed-83e6-4945-b4d7-69d3ab373732&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4fc05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value&gt;Your wage adjustment has been denied.&lt;/value&gt;&lt;variable display_value=""&gt;0a62c1160b100300d97d8bf637673a05&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;8bc05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;4e62c1160b100300d97d8bf637673a10&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c7c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;ce6281160b100300d97d8bf637673ac9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c7c05c48db229410a2e5f482ba9619c7"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;47c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Click here to see the record:&amp;amp;nbsp; &amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:af17f59e-a64b-4233-bd19-47ff561dfecf}}"&amp;gt;Trigger➛Wage Adjustments Record&amp;lt;button id="transform_function_facade_af17f59e-a64b-4233-bd19-47ff561dfecf" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p data-tinymcerootblock=""&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;83c05c48db229410a2e5f482ba9619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/id&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;cfc05c48db229410a2e5f482ba9619c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7&lt;/table&gt;&lt;value&gt;{{Updated_1.current.employee_name.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c7c05c48db229410a2e5f482ba9619c7^sys_idNOT INc7c05c48db229410a2e5f482ba9619c8"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;ah_to&lt;/input_name&gt;&lt;instance&gt;c7c05c48db229410a2e5f482ba9619c7&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_instance&lt;/referenced_table&gt;&lt;script&gt;{"ah_to":{"scriptActive":false}}&lt;/script&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;c7c05c48db229410a2e5f482ba9619c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=47c05c48db229410a2e5f482ba961998^sys_idNOT IN0fc05c48db229410a2e5f482ba9619cb,2cf3948cdb229410a2e5f482ba96191a,4e80d448db229410a2e5f482ba961988,8fc05c48db229410a2e5f482ba9619cb,c280d448db229410a2e5f482ba961989,ecf3948cdb229410a2e5f482ba96191a"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;0fc05c48db229410a2e5f482ba9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;af17f59e-a64b-4233-bd19-47ff561dfecf&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:13:44&lt;/sys_created_on&gt;&lt;sys_id&gt;2cf3948cdb229410a2e5f482ba96191a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;af17f59e-a64b-4233-bd19-47ff561dfecf&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;4e80d448db229410a2e5f482ba961988&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:13:43&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;af17f59e-a64b-4233-bd19-47ff561dfecf&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;8fc05c48db229410a2e5f482ba9619cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;8ae4cedf-2f15-42ae-90f6-e903e29492d5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c280d448db229410a2e5f482ba961989&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:13:43&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;8ae4cedf-2f15-42ae-90f6-e903e29492d5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;47c05c48db229410a2e5f482ba961998&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 15:13:44&lt;/sys_created_on&gt;&lt;sys_id&gt;ecf3948cdb229410a2e5f482ba96191a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 15:16:18&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;8ae4cedf-2f15-42ae-90f6-e903e29492d5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998^sys_idNOT IN03c05c48db229410a2e5f482ba9619a1,0bc05c48db229410a2e5f482ba9619bd,8bc05c48db229410a2e5f482ba9619b4"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;03c05c48db229410a2e5f482ba9619a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;0bc05c48db229410a2e5f482ba9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_47c05c48db229410a2e5f482ba961998&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-05 14:59:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;8bc05c48db229410a2e5f482ba9619b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-05 14:59:58&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>321805654</payload_hash>
+        <record_name>Denied WA notifications</record_name>
+        <reverted_from/>
+        <source>134f7a05db3e1810f20205d2ca9619d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-05 15:16:20</sys_created_on>
+        <sys_id>fe8418ccdb229410a2e5f482ba961913</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>173bf31d3ef0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-21 16:32:02</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>768418cc2c22941067969dd11ed64d13</update_guid>
+        <update_guid_history>768418cc2c22941067969dd11ed64d13:321805654,7184d4cc1222941083f907b7f10f930d:-1647974725,30f3948c1c2294105ede8dbcaefbdf40:1145080844,00f3548cf72294102d356104ce0cec76:303062932,1fc09c4812229410335cca6dd7873622:-1604592662,36c05c48ee2294101920183234e04e8d:808599708,c5c01c4855229410abb4916bf5daafb5:-917930510,0680d448782294105d82166c8cc6c69d:1717977299,7d80d448b422941039f5144cff92f964:-1007262290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-07 18:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>bfb5957d1fe542e696f11667331a7001</sys_id>
+        <sys_metadata>3180d448db229410a2e5f482ba96195f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Denied WA notifications</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_3180d448db229410a2e5f482ba96195f</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_3180d448db229410a2e5f482ba96195f">fe8418ccdb229410a2e5f482ba961913</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-07 18:04:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
