@@ -10,16 +10,20 @@
         <model_table/>
         <on_load>true</on_load>
         <order>100</order>
-        <reverse_if_false>true</reverse_if_false>
-        <run_scripts>false</run_scripts>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-
+    // If user is payor or approver, allow the UI policy to execute (and open up certain fields)
+    if (g_user.hasRoles('x_shce_wage_adjust.payor', 'x_shce_wage_adjust.approver')) {
+        g_form.setReadOnly('state', false);
+        g_form.setReadOnly('assigned_to', false);
+    }
 }]]></script_true>
         <set_values/>
-        <short_description>Disallow editing of certain fields</short_description>
+        <short_description>Allow editing of certain fields</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-08-21 18:06:58</sys_created_on>
@@ -27,8 +31,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>43e49fcddb7e9050daa50825ca96196f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Disallow editing of certain fields</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Allow editing of certain fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -36,7 +40,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_ui_policy_43e49fcddb7e9050daa50825ca96196f</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-08-21 18:06:58</sys_updated_on>
+        <sys_updated_on>2020-09-16 14:22:27</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
         <ui_type>0</ui_type>
         <view/>
