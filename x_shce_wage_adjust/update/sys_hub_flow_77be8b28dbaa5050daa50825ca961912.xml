@@ -6,7 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-orlando-12-11-2019__patch4b-08-04-2020</compiler_build>
+        <compiler_build>glide-orlando-12-11-2019__patch7-08-19-2020</compiler_build>
         <copied_from>918cb76bdb9e1410a2e5f482ba96197a</copied_from>
         <copied_from_name>Approved WA notifications</copied_from_name>
         <description>- sends email to New Wage Adjustments Email Recipients
@@ -14,7 +14,7 @@
 - changes status to "Submitted for Approval"</description>
         <internal_name>denied_wa_notifications</internal_name>
         <label_cache>[{"name":"5607f9ed-83e6-4945-b4d7-69d3ab373732.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Wage Adjustments Record","reference":"x_shce_wage_adjust_wage_adjustments","reference_display":"Wage Adjustments","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.employee_name.email","label":"Trigger➛Wage Adjustments Record➛Employee Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"c08d5b7c-ef02-4f4a-8e88-9ddc94cda499.Record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c08d5b7c-ef02-4f4a-8e88-9ddc94cda499.Table","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1bb0d0d4-a906-4573-b244-8e0e72425a56.Records","label":"2➛User Resource Roles Records","reference":"user_has_resource_role","reference_display":"User Resource Roles","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1bb0d0d4-a906-4573-b244-8e0e72425a56.Table","label":"2➛User Resource Roles Table","reference":"user_has_resource_role","reference_display":"User Resource Roles","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1bb0d0d4-a906-4573-b244-8e0e72425a56.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d52ff551-3528-45a3-86b3-14a87ae18c23.item","label":"1➛User Role Record","reference":"sys_user_has_role","reference_display":"User Role","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"edd9b564-6ff2-4848-af44-e58adc9dea66.email","label":"1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d52ff551-3528-45a3-86b3-14a87ae18c23.item.user.email","label":"1➛User Role Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"1140292e-d589-44d5-b8e1-6e05afcdbe5b.Record","label":"1➛User Resource Roles Record","reference":"user_has_resource_role","reference_display":"User Resource Roles","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1140292e-d589-44d5-b8e1-6e05afcdbe5b.Table","label":"1➛User Resource Roles Table","reference":"user_has_resource_role","reference_display":"User Resource Roles","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80e51163-bc90-4257-a97d-c610da2f50d7.Records","label":"1➛User Role Records","reference":"sys_user_has_role","reference_display":"User Role","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80e51163-bc90-4257-a97d-c610da2f50d7.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"80e51163-bc90-4257-a97d-c610da2f50d7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.denial_reason","label":"Trigger➛Wage Adjustments Record➛Denial Reason","reference":"","reference_display":"Denial Reason","type":"string","base_type":"string","parent_table_name":"x_shce_wage_adjust_wage_adjustments","column_name":"denial_reason"}]</label_cache>
-        <latest_snapshot>b2c05469db5bdc10daa50825ca961934</latest_snapshot>
+        <latest_snapshot>8a8c1343dbbf5050f20205d2ca961982</latest_snapshot>
         <master_snapshot>2f721b2cdbaa5050daa50825ca9619de</master_snapshot>
         <name>Denied WA notifications</name>
         <natlang/>
@@ -91,7 +91,7 @@
         <sys_created_on>2020-08-07 18:06:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c8ce8b28dbaa5050daa50825ca96194c</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -99,7 +99,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:37:57</sys_updated_on>
+        <sys_updated_on>2020-10-16 16:50:23</sys_updated_on>
         <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c8ce8b28dbaa5050daa50825ca96194c"/>
@@ -524,7 +524,7 @@
         <sys_created_on>2020-08-07 18:06:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c8ce8b28dbaa5050daa50825ca96194c</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -532,7 +532,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:37:57</sys_updated_on>
+        <sys_updated_on>2020-10-16 16:50:23</sys_updated_on>
         <ui_id>5607f9ed-83e6-4945-b4d7-69d3ab373732</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c8ce8b28dbaa5050daa50825ca96194c"/>
@@ -749,7 +749,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"77725b2cdbaa5050daa50825ca961924","name":"plan"}}</plan>
         <plan_id>77be8b28dbaa5050daa50825ca961912</plan_id>
-        <snapshot>b2c05469db5bdc10daa50825ca961934</snapshot>
+        <snapshot>8a8c1343dbbf5050f20205d2ca961982</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-08-07 18:23:14</sys_created_on>

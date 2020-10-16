@@ -46,7 +46,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=c6c369b4db36d410f20205d2ca9619f5"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_shce_wage_adjust_wage_adjustments">state=1<item display_value="Submitted for Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <condition table="x_shce_wage_adjust_wage_adjustments">state=1<item display_value="Submitted for HR Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="7" type="collection">
-        <element choice="3" default="1" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
+    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="5" type="collection">
+        <element choice="3" default="Add to Next Pay" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
             <choice>
                 <element inactive_on_update="false" label="Add to Next Check" value="1"/>
                 <element inactive_on_update="false" label="Manual Check (&gt;8 hours)" value="2"/>
@@ -12,6 +12,7 @@
         <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
         <element label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="string"/>
         <element display="true" label="History" max_length="4000" name="history" type="journal"/>
+        <element label="Manager to Approve" max_length="32" name="manager_to_approve" reference="sys_user" reference_qual="u_is_manager=true^EQ" reference_qual_condition="u_is_manager=true^EQ" type="reference"/>
         <element label="Reason for adjustment" mandatory="true" max_length="5000" name="reason_for_adjustment" type="string"/>
         <element default="true" label="Test True/False field" max_length="40" name="test_t_f" type="boolean"/>
     </element>

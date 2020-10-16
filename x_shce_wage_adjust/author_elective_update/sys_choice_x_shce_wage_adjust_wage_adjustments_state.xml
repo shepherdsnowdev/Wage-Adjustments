@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_shce_wage_adjust_wage_adjustments" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-08-04 19:02:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b1be3b2fdb9e1410a2e5f482ba96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_choice_x_shce_wage_adjust_wage_adjustments_state</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-08-04 19:02:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted for Manager Approval</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>0</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-09-18 18:15:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0673278edbdb1050f20205d2ca96194e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-09-18 18:20:24</sys_updated_on>
+            <value>-2</value>
+        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
@@ -24,19 +61,95 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Approved by Manager</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>1</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-09-18 18:09:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5412670edbdb1050f20205d2ca9619c4</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-09-18 18:20:18</sys_updated_on>
+            <value>-1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Submitted for Approval</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>75be3b2fdb9e1410a2e5f482ba9619ba</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-09-18 18:15:21</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied by Manager</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>2</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-09-18 18:15:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e732b02db1f1050f20205d2ca9619bb</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-05 15:49:52</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:20:21</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted for HR Approval</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>3</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-09-18 18:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbb3274edbdb1050f20205d2ca9619c6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-09-18 18:20:01</sys_updated_on>
             <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Ready for HR Approval</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>3</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-09-18 18:09:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>101263cedbdb1050f20205d2ca96199c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-09-18 18:16:31</sys_updated_on>
+            <value>9</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -46,15 +159,15 @@
             <label>Approved</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
-            <sequence>1</sequence>
+            <sequence>4</sequence>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b1be3b2fdb9e1410a2e5f482ba9619bf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-05 15:49:52</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:15:21</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -65,15 +178,15 @@
             <label>Denied</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
-            <sequence>2</sequence>
+            <sequence>5</sequence>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fdbe3b2fdb9e1410a2e5f482ba9619c3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-05 15:49:52</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:15:21</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -84,34 +197,16 @@
             <label>Paid</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
-            <sequence>3</sequence>
+            <sequence>6</sequence>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3dbe3b2fdb9e1410a2e5f482ba9619c8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-05 15:49:52</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:15:21</sys_updated_on>
             <value>4</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <name>x_shce_wage_adjust_wage_adjustments</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-08-04 19:02:29</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>b1be3b2fdb9e1410a2e5f482ba96199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>state</sys_name>
-            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
-            <sys_update_name>sys_choice_x_shce_wage_adjust_wage_adjustments_state</sys_update_name>
-            <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-08-04 19:02:29</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

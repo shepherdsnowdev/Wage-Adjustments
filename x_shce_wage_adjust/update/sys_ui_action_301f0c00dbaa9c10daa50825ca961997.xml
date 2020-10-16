@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>deny_wage_adjustment</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -55,7 +55,7 @@ function serverResolve(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>301f0c00dbaa9c10daa50825ca961997</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Deny</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -64,7 +64,7 @@ function serverResolve(){
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_ui_action_301f0c00dbaa9c10daa50825ca961997</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-08-05 15:21:05</sys_updated_on>
+        <sys_updated_on>2020-09-22 18:53:45</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

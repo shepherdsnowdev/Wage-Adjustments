@@ -27,7 +27,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Wage Adjustments</name>
+        <name>Wage Adjustment Form</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -54,7 +54,11 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script/>
+        <script><![CDATA[if ( producer.manager_to_approve ) {
+	current.state = -2;
+} else {
+	current.state = 1;
+}]]></script>
         <short_description>Wage adjustment form</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -63,15 +67,15 @@
         <sys_created_on>2020-08-05 20:19:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>57e911c8db669410a2e5f482ba9619de</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Wage Adjustments</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Wage Adjustment Form</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sc_cat_item_producer_57e911c8db669410a2e5f482ba9619de</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-08-17 19:02:02</sys_updated_on>
+        <sys_updated_on>2020-09-18 19:26:47</sys_updated_on>
         <table_name>x_shce_wage_adjust_wage_adjustments</table_name>
         <template/>
         <type>item</type>
