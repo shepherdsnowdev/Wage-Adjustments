@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-10-27 14:02:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>556f5f6edb84e010f20205d2ca9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_shce_wage_adjust_wage_adjustment_calculations.x_shce_wage_adjust.approver</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_security_acl display_value="x_shce_wage_adjust_wage_adjustment_calculations">594f2fda1b1e9810a649ece66e4bcbe5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_556f5f6edb84e010f20205d2ca9619d4</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-10-27 14:02:03</sys_updated_on>
+        <sys_user_role display_value="x_shce_wage_adjust.approver" name="x_shce_wage_adjust.approver">57d15940db669410a2e5f482ba96193c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_security_acl_role_556f5f6edb84e010f20205d2ca9619d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2020-10-27 14:02:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>556f5f6edb84e010f20205d2ca9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_shce_wage_adjust_wage_adjustment_calculations.x_shce_wage_adjust.approver</sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_security_acl display_value="x_shce_wage_adjust_wage_adjustment_calculations">594f2fda1b1e9810a649ece66e4bcbe5</sys_security_acl><sys_update_name>sys_security_acl_role_556f5f6edb84e010f20205d2ca9619d4</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2020-10-27 14:02:03</sys_updated_on><sys_user_role display_value="x_shce_wage_adjust.approver" name="x_shce_wage_adjust.approver">57d15940db669410a2e5f482ba96193c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-615905572</payload_hash>
+        <record_name>x_shce_wage_adjust_wage_adjustment_calculations.x_shce_wage_adjust.approver</record_name>
+        <reverted_from/>
+        <source>331a18a1db5f5c10f20205d2ca9619d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-10-27 14:02:03</sys_created_on>
+        <sys_id>3b7f13aedb84e010f20205d2ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1756a5da3930000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-10-27 14:02:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>337f13ae8f84e01026529512c9be9c39</update_guid>
+        <update_guid_history>337f13ae8f84e01026529512c9be9c39:-615905572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 10-27-2020 10:32:54 AM">378627a6dbc4e010f20205d2ca96197e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-10-27 14:32:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>27c2b7b7d92b4e9498d7cc8d0ec7c104</sys_id>
+        <sys_metadata>556f5f6edb84e010f20205d2ca9619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_shce_wage_adjust_wage_adjustment_calculations.x_shce_wage_adjust.approver</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent display_value="x_shce_wage_adjust_wage_adjustment_calculations">594f2fda1b1e9810a649ece66e4bcbe5</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_556f5f6edb84e010f20205d2ca9619d4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_556f5f6edb84e010f20205d2ca9619d4">3b7f13aedb84e010f20205d2ca961939</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-10-27 14:32:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

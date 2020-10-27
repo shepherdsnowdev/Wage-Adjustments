@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Human Resources" name="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
         <collection>x_shce_wage_adjust_wage_adjustments</collection>
-        <condition table="x_shce_wage_adjust_wage_adjustments">state=2^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+        <condition table="x_shce_wage_adjust_wage_adjustments">stateCHANGESTO2^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -40,6 +40,8 @@
         <message_html><![CDATA[<p><strong>Date of Request:</strong> ${date_of_request}</p>
 <p><strong>Employee Name:</strong> ${employee_name}</p>
 <p><strong>Manager to Approve:</strong> ${manager_to_approve}</p>
+<p><strong>Current State:</strong> ${state}</p>
+<p>&nbsp;</p>
 <p><strong>Description:</strong> ${description}</p>
 <p>&nbsp;</p>
 <p>Click here to view the Wage Adjustment form: ${URI}</p>]]></message_html>
@@ -65,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f084023db139450f20205d2ca961938</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>WAF - Notify Payors when HR approves WAF</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -74,7 +76,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sysevent_email_action_4f084023db139450f20205d2ca961938</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-09-22 18:16:08</sys_updated_on>
+        <sys_updated_on>2020-10-16 19:16:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

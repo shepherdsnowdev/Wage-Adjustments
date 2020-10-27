@@ -32,9 +32,9 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
+        <max_length>10</max_length>
         <name>x_shce_wage_adjust_wage_adjustment_calculations</name>
         <next_element/>
         <primary>false</primary>
@@ -52,9 +52,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2020-07-31 20:43:53</sys_created_on>
+        <sys_created_on>2020-10-20 14:21:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ca7f231e1b1e9810a649ece66e4bcb93</sys_id>
+        <sys_id>26b0ef98db806850daa50825ca9619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Amount</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_dictionary_x_shce_wage_adjust_wage_adjustment_calculations_amount</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-07-31 20:43:53</sys_updated_on>
+        <sys_updated_on>2020-10-20 14:21:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

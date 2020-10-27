@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" label="Wage Adjustment Calculations" max_length="40" name="x_shce_wage_adjust_wage_adjustment_calculations" sizeclass="6" type="collection">
-        <element label="Amount" max_length="20" name="amount" type="currency"/>
+    <element attributes="hasLabels=true" label="Wage Adjustment Calculations" max_length="40" name="x_shce_wage_adjust_wage_adjustment_calculations" sizeclass="7" type="collection">
+        <element label="Amount" max_length="10" name="amount" type="string"/>
         <element label="Department Number" max_length="10" name="department_number" type="string"/>
         <element label="Number of Hours" max_length="40" name="number_of_hours" type="integer"/>
         <element label="Parent WAF" max_length="32" name="parent_waf" reference="x_shce_wage_adjust_wage_adjustments" type="reference"/>
