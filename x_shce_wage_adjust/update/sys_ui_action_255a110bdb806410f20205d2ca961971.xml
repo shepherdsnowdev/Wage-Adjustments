@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>deny_wage_adjustment</action_name>
-        <active>false</active>
-        <client>true</client>
+        <action_name>Mark WAF as Approved By Manager</action_name>
+        <active>true</active>
+        <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments>Changes State field to "Denied", then submits the form.&#13;
+        <comments>Button that only shows when WAF is in state "Submitted for Manager Approval".  Sets the State field to "Approved by Manager".&#13;
 &#13;
-This then triggers the flow "Denied WA notifications", which notifies the form creator that it has been denied.</comments>
-        <condition>current.state &lt; 2</condition>
+Only available when state is "Submitted for Manager Approval" and Manager to Approve matches the current user.</comments>
+        <condition>current.state == -2 &amp;&amp; gs.getUserID () == current.manager_to_approve</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>true</form_context_menu>
+        <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
@@ -27,44 +27,33 @@ This then triggers the flow "Denied WA notifications", which notifies the form c
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Deny</name>
-        <onclick>denyWageAdjustment()</onclick>
-        <order>20</order>
-        <script><![CDATA[function denyWageAdjustment(){
-	g_form.setValue('state', 3); // 'denied'
-	gsftSubmit(null, g_form.getFormElement(), 'deny_wage_adjustment'); //MUST call the 'Action name' set in this UI Action
-}
-
-//Code that runs without 'onclick'
-//Ensure call to server-side function with no browser errors
-if (typeof window == 'undefined')
-	serverResolve();
-
-function serverResolve(){
-	current.state = 3; // 'Denied'
-	current.update();
-}]]></script>
-        <show_insert>true</show_insert>
+        <name>Approve</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[current.state = -1; // Approved by Manager
+current.update();
+action.setRedirectURL(current); // stay on this form]]></script>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2020-08-05 14:52:27</sys_created_on>
+        <sys_created_on>2020-10-28 17:38:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>301f0c00dbaa9c10daa50825ca961997</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Deny</sys_name>
+        <sys_id>255a110bdb806410f20205d2ca961971</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
-        <sys_update_name>sys_ui_action_301f0c00dbaa9c10daa50825ca961997</sys_update_name>
+        <sys_update_name>sys_ui_action_255a110bdb806410f20205d2ca961971</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-09-22 18:53:45</sys_updated_on>
+        <sys_updated_on>2020-10-28 17:58:51</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
