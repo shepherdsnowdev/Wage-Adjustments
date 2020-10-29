@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow HR and FinSvcs to edit "Assigned To" field</description>
+        <name>x_shce_wage_adjust_wage_adjustments.assigned_to</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-21 18:15:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>25f61781dbbe9050daa50825ca96197e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_shce_wage_adjust_wage_adjustments.assigned_to</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_security_acl_25f61781dbbe9050daa50825ca96197e</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-21 18:16:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_security_acl_25f61781dbbe9050daa50825ca96197e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow HR and FinSvcs to edit "Assigned To" field</description><name>x_shce_wage_adjust_wage_adjustments.assigned_to</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2020-08-21 18:15:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>25f61781dbbe9050daa50825ca96197e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_shce_wage_adjust_wage_adjustments.assigned_to</sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_update_name>sys_security_acl_25f61781dbbe9050daa50825ca96197e</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2020-08-21 18:16:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>867630590</payload_hash>
+        <record_name>x_shce_wage_adjust_wage_adjustments.assigned_to</record_name>
+        <reverted_from/>
+        <source>09051f1e1b9a9810a649ece66e4bcb5f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-08-21 18:16:27</sys_created_on>
+        <sys_id>11375781dbbe9050daa50825ca96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174123c7c080000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-08-21 18:16:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>15375781cabe9050866485fa10669c49</update_guid>
+        <update_guid_history>15375781cabe9050866485fa10669c49:867630590,edf69b81a8be9050237687f15d0ff98d:-13257242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-10-29 19:00:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>232bfe78865844c4a7fed31430b177e4</sys_id>
+        <sys_metadata>25f61781dbbe9050daa50825ca96197e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_shce_wage_adjust_wage_adjustments.assigned_to</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent display_value="x_shce_wage_adjust_wage_adjustments">b384531e1b9a9810a649ece66e4bcbbc</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_security_acl_25f61781dbbe9050daa50825ca96197e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_25f61781dbbe9050daa50825ca96197e">11375781dbbe9050daa50825ca96194a</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-10-29 19:00:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

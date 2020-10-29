@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Allow HR and FinSvcs to edit any record</description>
+        <description>Allow write for records in x_shce_wage_adjust_wage_adjustments, always.</description>
         <name>x_shce_wage_adjust_wage_adjustments</name>
         <operation display_value="write">write</operation>
         <script/>
@@ -13,7 +13,7 @@
         <sys_created_on>2020-07-31 18:45:56</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1c94931e1b9a9810a649ece66e4bcb3a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_shce_wage_adjust_wage_adjustments</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -21,7 +21,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_security_acl_1c94931e1b9a9810a649ece66e4bcb3a</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-08-21 17:03:53</sys_updated_on>
+        <sys_updated_on>2020-10-29 19:19:30</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_shce_wage_adjust_wage_adjustments">state!=3^EQ<item display_value="Denied" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </conditions>
+        <conditions/>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -21,24 +19,24 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide Denial Reason field</short_description>
+        <short_description>Disallow editing of WAF Creator field</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2020-08-21 18:04:02</sys_created_on>
+        <sys_created_on>2020-10-29 14:40:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>194453cddb7e9050daa50825ca9619f8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Hide Denial Reason field</sys_name>
+        <sys_id>ed7b791bdb0ca490daa50825ca96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disallow editing of WAF Creator field</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
-        <sys_update_name>sys_ui_policy_194453cddb7e9050daa50825ca9619f8</sys_update_name>
+        <sys_update_name>sys_ui_policy_ed7b791bdb0ca490daa50825ca96191e</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-10-29 14:26:25</sys_updated_on>
+        <sys_updated_on>2020-10-29 14:40:59</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
         <ui_type>0</ui_type>
         <view/>
