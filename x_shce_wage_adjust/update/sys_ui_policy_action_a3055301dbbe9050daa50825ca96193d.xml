@@ -19,7 +19,7 @@
         <sys_updated_by>DLADMIN</sys_updated_by>
         <sys_updated_on>2020-08-21 18:07:34</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
-        <ui_policy display_value="Allow editing of certain fields">43e49fcddb7e9050daa50825ca96196f</ui_policy>
+        <ui_policy display_value="Allow editing of employee fields">43e49fcddb7e9050daa50825ca96196f</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
