@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-09-22 18:58:30</sys_created_on>
+            <sys_created_on>2020-11-10 22:05:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cdb3d463db539450f20205d2ca961911</sys_id>
+            <sys_id>b06451d3db94e010f20205d2ca9619e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_shce_wage_adjust_wage_adjustments" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">cdb3d463db539450f20205d2ca96190e</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">7ccba3d61b1e9810a649ece66e4bcb22</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">706451d3db94e010f20205d2ca9619aa</sys_ui_section>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-09-22 18:58:30</sys_updated_on>
+            <sys_updated_on>2020-11-10 22:05:24</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_shce_wage_adjust_wage_adjustments</name>

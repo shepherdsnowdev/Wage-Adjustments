@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="for_pay_period_ending" table="x_shce_wage_adjust_wage_adjustments" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>for_pay_period_ending</element>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 13:47:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>de827d65db902050f20205d2ca961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>for_pay_period_ending</sys_name>
+            <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+            <sys_update_name>sys_choice_x_shce_wage_adjust_wage_adjustments_for_pay_period_ending</sys_update_name>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 13:47:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11/7/2020</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>0</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 13:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56827d65db902050f20205d2ca961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 13:47:46</sys_updated_on>
+            <value>11/7/2020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11/21/2020</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>1</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 13:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1282b1a5db902050f20205d2ca961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 13:47:46</sys_updated_on>
+            <value>11/21/2020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12/05/2020</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>2</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 13:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9282b1a5db902050f20205d2ca96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 13:47:46</sys_updated_on>
+            <value>12/05/2020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12/19/2020</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>3</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 13:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1682b1a5db902050f20205d2ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 13:47:46</sys_updated_on>
+            <value>12/19/2020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>01/02/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>4</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a044ae5dbd02050f20205d2ca96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>01/02/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>01/16/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>5</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a048ee5dbd02050f20205d2ca9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>01/16/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>01/30/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>6</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa048ee5dbd02050f20205d2ca9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>01/30/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>02/13/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>7</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e048ee5dbd02050f20205d2ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>02/13/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>02/27/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>8</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae048ee5dbd02050f20205d2ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>02/27/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>03/13/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>9</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22048ee5dbd02050f20205d2ca9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>03/13/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>03/27/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>10</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2048ee5dbd02050f20205d2ca9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>03/27/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>04/10/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>11</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26048ee5dbd02050f20205d2ca9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>04/10/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>04/24/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>12</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6048ee5dbd02050f20205d2ca9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>04/24/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>05/08/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>13</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a048ee5dbd02050f20205d2ca9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>05/08/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>05/22/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>14</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa048ee5dbd02050f20205d2ca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>05/22/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>06/05/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>15</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e048ee5dbd02050f20205d2ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>06/05/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>06/19/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>16</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae04cee5dbd02050f20205d2ca961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:14</sys_updated_on>
+            <value>06/19/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>07/03/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>17</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2204cee5dbd02050f20205d2ca961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>07/03/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>07/17/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>18</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a204cee5dbd02050f20205d2ca96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>07/17/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>07/31/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>19</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3604cee5dbd02050f20205d2ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>07/31/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>08/14/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>20</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b604cee5dbd02050f20205d2ca961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>08/14/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>08/28/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>21</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a04cee5dbd02050f20205d2ca96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>08/28/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>09/11/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>22</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba04cee5dbd02050f20205d2ca961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>09/11/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>09/25/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>23</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e04cee5dbd02050f20205d2ca961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>09/25/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10/09/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>24</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be04cee5dbd02050f20205d2ca96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>10/09/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10/23/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>25</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3204cee5dbd02050f20205d2ca961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>10/23/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11/06/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>26</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b204cee5dbd02050f20205d2ca961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>11/06/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11/20/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>27</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3604cee5dbd02050f20205d2ca96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>11/20/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12/04/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>28</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b604cee5dbd02050f20205d2ca961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>12/04/2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12/18/2021</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>29</sequence>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2020-11-05 15:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a04cee5dbd02050f20205d2ca961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2020-11-05 15:04:15</sys_updated_on>
+            <value>12/18/2021</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

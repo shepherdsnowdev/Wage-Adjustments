@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="10" type="collection">
+    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="14" type="collection">
         <element choice="3" default="Add to Next Pay" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
             <choice>
-                <element inactive_on_update="false" label="Add to Next Check" value="1"/>
-                <element inactive_on_update="false" label="Manual Check (&gt;8 hours)" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Add to Next Check" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Add to Next Pay" sequence="0" value="Add to Next Pay"/>
+                <element inactive="true" inactive_on_update="true" label="Manual Check (&gt;8 hours)" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Manual Pay" sequence="1" value="Manual Pay"/>
             </choice>
         </element>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of Request" mandatory="true" max_length="40" name="date_of_request" type="glide_date" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Denial Reason" max_length="1000" name="denial_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Home Department #" max_length="40" name="employee_home_department" type="string"/>
         <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
-        <element label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="string"/>
+        <element choice="3" default="11/7/2020" label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="11/7/2020" sequence="0" value="11/7/2020"/>
+                <element inactive_on_update="false" label="11/21/2020" sequence="1" value="11/21/2020"/>
+                <element inactive_on_update="false" label="12/05/2020" sequence="2" value="12/05/2020"/>
+                <element inactive_on_update="false" label="12/19/2020" sequence="3" value="12/19/2020"/>
+                <element inactive_on_update="false" label="01/02/2021" sequence="4" value="01/02/2021"/>
+                <element inactive_on_update="false" label="01/16/2021" sequence="5" value="01/16/2021"/>
+                <element inactive_on_update="false" label="01/30/2021" sequence="6" value="01/30/2021"/>
+                <element inactive_on_update="false" label="02/13/2021" sequence="7" value="02/13/2021"/>
+                <element inactive_on_update="false" label="02/27/2021" sequence="8" value="02/27/2021"/>
+                <element inactive_on_update="false" label="03/13/2021" sequence="9" value="03/13/2021"/>
+                <element inactive_on_update="false" label="03/27/2021" sequence="10" value="03/27/2021"/>
+                <element inactive_on_update="false" label="04/10/2021" sequence="11" value="04/10/2021"/>
+                <element inactive_on_update="false" label="04/24/2021" sequence="12" value="04/24/2021"/>
+                <element inactive_on_update="false" label="05/08/2021" sequence="13" value="05/08/2021"/>
+                <element inactive_on_update="false" label="05/22/2021" sequence="14" value="05/22/2021"/>
+                <element inactive_on_update="false" label="06/05/2021" sequence="15" value="06/05/2021"/>
+                <element inactive_on_update="false" label="06/19/2021" sequence="16" value="06/19/2021"/>
+                <element inactive_on_update="false" label="07/03/2021" sequence="17" value="07/03/2021"/>
+                <element inactive_on_update="false" label="07/17/2021" sequence="18" value="07/17/2021"/>
+                <element inactive_on_update="false" label="07/31/2021" sequence="19" value="07/31/2021"/>
+                <element inactive_on_update="false" label="08/14/2021" sequence="20" value="08/14/2021"/>
+                <element inactive_on_update="false" label="08/28/2021" sequence="21" value="08/28/2021"/>
+                <element inactive_on_update="false" label="09/11/2021" sequence="22" value="09/11/2021"/>
+                <element inactive_on_update="false" label="09/25/2021" sequence="23" value="09/25/2021"/>
+                <element inactive_on_update="false" label="10/09/2021" sequence="24" value="10/09/2021"/>
+                <element inactive_on_update="false" label="10/23/2021" sequence="25" value="10/23/2021"/>
+                <element inactive_on_update="false" label="11/06/2021" sequence="26" value="11/06/2021"/>
+                <element inactive_on_update="false" label="11/20/2021" sequence="27" value="11/20/2021"/>
+                <element inactive_on_update="false" label="12/04/2021" sequence="28" value="12/04/2021"/>
+                <element inactive_on_update="false" label="12/18/2021" sequence="29" value="12/18/2021"/>
+            </choice>
+        </element>
         <element display="true" label="History" max_length="4000" name="history" type="journal"/>
-        <element label="Manager to Approve" max_length="32" name="manager_to_approve" reference="sys_user" reference_qual="u_is_manager=true^EQ" reference_qual_condition="u_is_manager=true^EQ" type="reference"/>
+        <element choice="1" label="Manager to Approve" max_length="32" name="manager_to_approve" reference="sys_user" reference_qual="u_is_manager=true^EQ" reference_qual_condition="u_is_manager=true^EQ" type="reference">
+            <choice/>
+        </element>
         <element label="Reason for adjustment" mandatory="true" max_length="5000" name="reason_for_adjustment" type="string"/>
         <element default="true" label="Test True/False field" max_length="40" name="test_t_f" type="boolean"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Created By" max_length="32" name="waf_creator" reference="sys_user" type="reference" use_dynamic_default="true"/>
