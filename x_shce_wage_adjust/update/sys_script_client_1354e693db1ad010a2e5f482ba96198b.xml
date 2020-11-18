@@ -11,9 +11,7 @@
         <name>Change label of dept ID field on WA form</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-	//g_form.clearValue('id');
-	g_form.setLabelOf('employee_name.department.id','Employee Home Dept ID:');
+  	g_form.setLabelOf('employee_name.department.id','Employee Home Dept ID:');
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
@@ -22,7 +20,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1354e693db1ad010a2e5f482ba96198b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Change label of dept ID field on WA form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -30,8 +28,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_script_client_1354e693db1ad010a2e5f482ba96198b</sys_update_name>
-        <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-08-03 17:58:51</sys_updated_on>
+        <sys_updated_by>AAadmin</sys_updated_by>
+        <sys_updated_on>2020-11-10 18:34:45</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
