@@ -10,9 +10,9 @@
             <plural>Number of Hours</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2020-11-19 14:39:02</sys_created_on>
+            <sys_created_on>2020-11-19 15:03:25</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>bd848a06db246050daa50825ca961902</sys_id>
+            <sys_id>4b1a428edb246050daa50825ca9619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Number of Hours</sys_name>
             <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -21,7 +21,7 @@
             <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
             <sys_update_name>sys_documentation_x_shce_wage_adjust_wage_adjustment_calculations_number_of_hours_en</sys_update_name>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2020-11-19 14:39:02</sys_updated_on>
+            <sys_updated_on>2020-11-19 15:03:25</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
