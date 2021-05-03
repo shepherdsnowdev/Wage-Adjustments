@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="16" type="collection">
+    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="37" type="collection">
         <element choice="3" default="Add to Next Pay" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Add to Next Check" sequence="0" value="1"/>
@@ -11,7 +11,7 @@
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of Request" mandatory="true" max_length="40" name="date_of_request" type="glide_date" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Denial Reason" max_length="1000" name="denial_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Home Department #" max_length="40" name="employee_home_department" type="string"/>
-        <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,&#13;&#10;ref_ac_display_value=true,&#13;&#10;ref_ac_columns=employee_number;u_job_code,&#13;&#10;ref_ac_columns_search=true,&#13;&#10;ref_ac_order_by=name" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element choice="3" default="11/7/2020" label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="choice">
             <choice>
                 <element inactive_on_update="false" label="11/7/2020" sequence="0" value="11/7/2020"/>
