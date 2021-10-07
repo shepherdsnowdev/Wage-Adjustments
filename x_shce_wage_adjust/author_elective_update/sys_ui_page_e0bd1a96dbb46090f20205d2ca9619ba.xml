@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function okPage(){
+	var chocies = document.getElementsByName("radioName");
+	var answer = '';
+	for (var i=0; i < choices.length; i++) {
+		if (choices[i].checked) {// radio checked?
+		answer = choices[i].value; // if so, hold its value in 'answer'
+			break; // and break out of the FOR loop
+		}
+	}
+	if (answer == '')
+		// Stop processing if there isn't any radio button pressed
+		return false;
+	GlideDialogWindow.get().destroy();
+	g_form.setValue ('short_description', answer);
+	gsftSubmit(gel('sysverb_update_and_stay'));
+}
+
+function cancelPage(){
+	GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description>This UI Page asks the user to choose where to send an Incident: "Facilities" or "Biomed/ATC"?&#13;
+&#13;
+The script then takes the choice, creates a new Nuvolo work order of the appropriate type, and flags the Incident as Cancelled with reason "Converted to &lt;type&gt; work order"</description>
+        <direct>false</direct>
+        <endpoint>x_shce_wage_adjust_Pass Incident to Nuvolo.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+Choose which type of work order to create:
+	<form id="myForm">
+		<input type="radio" name="radioName" value="1" />Facilities<br />
+		<input type="radio" name="radioName" value="2" />Biomed/ATC<br />
+	</form>
+	<button id="cancelpage" onclick="cancelPage();">Cancel</button>
+	<button id="okpage" onclick="okPage();">OK</button>
+</j:jelly>]]></html>
+        <name>Pass Incident to Nuvolo</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-12-02 21:31:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e0bd1a96dbb46090f20205d2ca9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pass Incident to Nuvolo</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ui_page_e0bd1a96dbb46090f20205d2ca9619ba</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-12-02 21:31:18</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ui_page_e0bd1a96dbb46090f20205d2ca9619ba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function okPage(){
+	var chocies = document.getElementsByName("radioName");
+	var answer = '';
+	for (var i=0; i &lt; choices.length; i++) {
+		if (choices[i].checked) {// radio checked?
+		answer = choices[i].value; // if so, hold its value in 'answer'
+			break; // and break out of the FOR loop
+		}
+	}
+	if (answer == '')
+		// Stop processing if there isn't any radio button pressed
+		return false;
+	GlideDialogWindow.get().destroy();
+	g_form.setValue ('short_description', answer);
+	gsftSubmit(gel('sysverb_update_and_stay'));
+}
+
+function cancelPage(){
+	GlideDialogWindow.get().destroy();
+}]]&gt;&lt;/client_script&gt;&lt;description&gt;This UI Page asks the user to choose where to send an Incident: "Facilities" or "Biomed/ATC"?&amp;#13;
+&amp;#13;
+The script then takes the choice, creates a new Nuvolo work order of the appropriate type, and flags the Incident as Cancelled with reason "Converted to &amp;lt;type&amp;gt; work order"&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_shce_wage_adjust_Pass Incident to Nuvolo.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+Choose which type of work order to create:
+	&lt;form id="myForm"&gt;
+		&lt;input type="radio" name="radioName" value="1" /&gt;Facilities&lt;br /&gt;
+		&lt;input type="radio" name="radioName" value="2" /&gt;Biomed/ATC&lt;br /&gt;
+	&lt;/form&gt;
+	&lt;button id="cancelpage" onclick="cancelPage();"&gt;Cancel&lt;/button&gt;
+	&lt;button id="okpage" onclick="okPage();"&gt;OK&lt;/button&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Pass Incident to Nuvolo&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DLADMIN&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-02 21:31:18&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;e0bd1a96dbb46090f20205d2ca9619ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pass Incident to Nuvolo&lt;/sys_name&gt;&lt;sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Wage Adjustments"&gt;ac2493da1b9a9810a649ece66e4bcbd2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_e0bd1a96dbb46090f20205d2ca9619ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DLADMIN&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-02 21:31:18&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1162473839</payload_hash>
+        <record_name>Pass Incident to Nuvolo</record_name>
+        <reverted_from/>
+        <source>331a18a1db5f5c10f20205d2ca9619d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-12-02 21:31:18</sys_created_on>
+        <sys_id>b38f1a96dbb46090f20205d2ca9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176255de3240000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-12-02 21:31:18</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>bb8f1a966cb4609015d39c8891641cc1</update_guid>
+        <update_guid_history>bb8f1a966cb4609015d39c8891641cc1:-1162473839</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2020-12-09 14:30:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>0ca48b46c9e048009be181a946400000</sys_id>
+        <sys_metadata>e0bd1a96dbb46090f20205d2ca9619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pass Incident to Nuvolo</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_ui_page_e0bd1a96dbb46090f20205d2ca9619ba</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_e0bd1a96dbb46090f20205d2ca9619ba">b38f1a96dbb46090f20205d2ca9619c2</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:30:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
