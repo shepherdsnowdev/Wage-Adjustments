@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="43" type="collection">
+    <element extends="task" label="Wage Adjustments" max_length="40" name="x_shce_wage_adjust_wage_adjustments" sizeclass="928" type="collection">
         <element choice="3" default="Add to Next Pay" label="Check Preference" mandatory="true" max_length="40" name="check_preference" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Add to Next Check" sequence="0" value="1"/>
@@ -11,39 +11,67 @@
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of Request" mandatory="true" max_length="40" name="date_of_request" type="glide_date" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Denial Reason" max_length="1000" name="denial_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Home Department #" max_length="40" name="employee_home_department" type="string"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,&#13;&#10;ref_ac_display_value=true,&#13;&#10;ref_ac_columns=employee_number;u_job_code,&#13;&#10;ref_ac_columns_search=true,&#13;&#10;ref_ac_order_by=name" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_ac_columns=employee_number;u_job_code,ref_ac_columns_search=true,ref_ac_display_value=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="For Pay Period Ending:" mandatory="true" max_length="40" name="for_pay_period_ending" type="choice">
             <choice>
-                <element inactive_on_update="false" label="11/7/2020" sequence="0" value="11/7/2020"/>
-                <element inactive_on_update="false" label="11/21/2020" sequence="1" value="11/21/2020"/>
-                <element inactive_on_update="false" label="12/05/2020" sequence="2" value="12/05/2020"/>
-                <element inactive_on_update="false" label="12/19/2020" sequence="3" value="12/19/2020"/>
-                <element inactive_on_update="false" label="01/02/2021" sequence="4" value="01/02/2021"/>
-                <element inactive_on_update="false" label="01/16/2021" sequence="5" value="01/16/2021"/>
-                <element inactive_on_update="false" label="01/30/2021" sequence="6" value="01/30/2021"/>
-                <element inactive_on_update="false" label="02/13/2021" sequence="7" value="02/13/2021"/>
-                <element inactive_on_update="false" label="02/27/2021" sequence="8" value="02/27/2021"/>
-                <element inactive_on_update="false" label="03/13/2021" sequence="9" value="03/13/2021"/>
-                <element inactive_on_update="false" label="03/27/2021" sequence="10" value="03/27/2021"/>
-                <element inactive_on_update="false" label="04/10/2021" sequence="11" value="04/10/2021"/>
-                <element inactive_on_update="false" label="04/24/2021" sequence="12" value="04/24/2021"/>
-                <element inactive_on_update="false" label="05/08/2021" sequence="13" value="05/08/2021"/>
-                <element inactive_on_update="false" label="05/22/2021" sequence="14" value="05/22/2021"/>
-                <element inactive_on_update="false" label="06/05/2021" sequence="15" value="06/05/2021"/>
-                <element inactive_on_update="false" label="06/19/2021" sequence="16" value="06/19/2021"/>
-                <element inactive_on_update="false" label="07/03/2021" sequence="17" value="07/03/2021"/>
-                <element inactive_on_update="false" label="07/17/2021" sequence="18" value="07/17/2021"/>
-                <element inactive_on_update="false" label="07/31/2021" sequence="19" value="07/31/2021"/>
-                <element inactive_on_update="false" label="08/14/2021" sequence="20" value="08/14/2021"/>
-                <element inactive_on_update="false" label="08/28/2021" sequence="21" value="08/28/2021"/>
-                <element inactive_on_update="false" label="09/11/2021" sequence="22" value="09/11/2021"/>
-                <element inactive_on_update="false" label="09/25/2021" sequence="23" value="09/25/2021"/>
-                <element inactive_on_update="false" label="10/09/2021" sequence="24" value="10/09/2021"/>
-                <element inactive_on_update="false" label="10/23/2021" sequence="25" value="10/23/2021"/>
-                <element inactive_on_update="false" label="11/06/2021" sequence="26" value="11/06/2021"/>
-                <element inactive_on_update="false" label="11/20/2021" sequence="27" value="11/20/2021"/>
-                <element inactive_on_update="false" label="12/04/2021" sequence="28" value="12/04/2021"/>
-                <element inactive_on_update="false" label="12/18/2021" sequence="29" value="12/18/2021"/>
+                <element inactive_on_update="false" label="01/01/2022" sequence="0" value="01/01/2022"/>
+                <element inactive="true" inactive_on_update="true" label="11/7/2020" sequence="0" value="11/7/2020"/>
+                <element inactive_on_update="false" label="01/15/2022" sequence="1" value="01/15/2022"/>
+                <element inactive="true" inactive_on_update="true" label="11/21/2020" sequence="1" value="11/21/2020"/>
+                <element inactive_on_update="false" label="01/29/2022" sequence="2" value="01/29/2022"/>
+                <element inactive="true" inactive_on_update="true" label="12/05/2020" sequence="2" value="12/05/2020"/>
+                <element inactive_on_update="false" label="02/12/2022" sequence="3" value="02/12/2022"/>
+                <element inactive="true" inactive_on_update="true" label="12/19/2020" sequence="3" value="12/19/2020"/>
+                <element inactive="true" inactive_on_update="true" label="01/02/2021" sequence="4" value="01/02/2021"/>
+                <element inactive_on_update="false" label="02/26/2022" sequence="4" value="02/26/2022"/>
+                <element inactive="true" inactive_on_update="true" label="01/16/2021" sequence="5" value="01/16/2021"/>
+                <element inactive_on_update="false" label="03/12/2022" sequence="5" value="03/12/2022"/>
+                <element inactive="true" inactive_on_update="true" label="01/30/2021" sequence="6" value="01/30/2021"/>
+                <element inactive_on_update="false" label="03/26/2022" sequence="6" value="03/26/2022"/>
+                <element inactive="true" inactive_on_update="true" label="02/13/2021" sequence="7" value="02/13/2021"/>
+                <element inactive_on_update="false" label="04/09/2022" sequence="7" value="04/09/2022"/>
+                <element inactive="true" inactive_on_update="true" label="02/27/2021" sequence="8" value="02/27/2021"/>
+                <element inactive_on_update="false" label="04/23/2022" sequence="8" value="04/23/2022"/>
+                <element inactive="true" inactive_on_update="true" label="03/13/2021" sequence="9" value="03/13/2021"/>
+                <element inactive_on_update="false" label="05/07/2022" sequence="9" value="05/07/2022"/>
+                <element inactive="true" inactive_on_update="true" label="03/27/2021" sequence="10" value="03/27/2021"/>
+                <element inactive_on_update="false" label="05/21/2022" sequence="10" value="05/21/2022"/>
+                <element inactive="true" inactive_on_update="true" label="04/10/2021" sequence="11" value="04/10/2021"/>
+                <element inactive_on_update="false" label="06/04/2022" sequence="11" value="06/04/2022"/>
+                <element inactive="true" inactive_on_update="true" label="04/24/2021" sequence="12" value="04/24/2021"/>
+                <element inactive_on_update="false" label="06/18/2022" sequence="12" value="06/18/2022"/>
+                <element inactive="true" inactive_on_update="true" label="05/08/2021" sequence="13" value="05/08/2021"/>
+                <element inactive_on_update="false" label="07/02/2022" sequence="13" value="07/02/2022"/>
+                <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_shce_wage_adjust_wage_adjustments" sequence="14" value="-TBDTARGET-x_shce_wage_adjust_wage_adjustments"/>
+                <element inactive_on_update="false" label="07/16/2022" sequence="14" value="07/16/2022"/>
+                <element inactive="true" inactive_on_update="true" label="05/22/2021" sequence="15" value="05/22/2021"/>
+                <element inactive_on_update="false" label="07/30/2022" sequence="15" value="07/30/2022"/>
+                <element inactive="true" inactive_on_update="true" label="06/05/2021" sequence="16" value="06/05/2021"/>
+                <element inactive_on_update="false" label="08/13/2022" sequence="16" value="08/13/2022"/>
+                <element inactive="true" inactive_on_update="true" label="06/19/2021" sequence="17" value="06/19/2021"/>
+                <element inactive_on_update="false" label="08/27/2022" sequence="17" value="08/27/2022"/>
+                <element inactive="true" inactive_on_update="true" label="07/03/2021" sequence="18" value="07/03/2021"/>
+                <element inactive_on_update="false" label="09/10/2022" sequence="18" value="09/10/2022"/>
+                <element inactive="true" inactive_on_update="true" label="07/17/2021" sequence="19" value="07/17/2021"/>
+                <element inactive_on_update="false" label="09/24/2022" sequence="19" value="09/24/2022"/>
+                <element inactive="true" inactive_on_update="true" label="07/31/2021" sequence="20" value="07/31/2021"/>
+                <element inactive_on_update="false" label="10/08/2022" sequence="20" value="10/08/2022"/>
+                <element inactive="true" inactive_on_update="true" label="08/14/2021" sequence="21" value="08/14/2021"/>
+                <element inactive_on_update="false" label="10/22/2022" sequence="21" value="10/22/2022"/>
+                <element inactive="true" inactive_on_update="true" label="08/28/2021" sequence="22" value="08/28/2021"/>
+                <element inactive_on_update="false" label="11/05/2022" sequence="22" value="11/05/2022"/>
+                <element inactive="true" inactive_on_update="true" label="09/11/2021" sequence="23" value="09/11/2021"/>
+                <element inactive_on_update="false" label="11/19/2022" sequence="23" value="11/19/2022"/>
+                <element inactive="true" inactive_on_update="true" label="09/25/2021" sequence="24" value="09/25/2021"/>
+                <element inactive_on_update="false" label="12/03/2022" sequence="24" value="12/03/2022"/>
+                <element inactive="true" inactive_on_update="true" label="10/09/2021" sequence="25" value="10/09/2021"/>
+                <element inactive_on_update="false" label="12/17/2022" sequence="25" value="12/17/2022"/>
+                <element inactive="true" inactive_on_update="true" label="10/23/2021" sequence="26" value="10/23/2021"/>
+                <element inactive_on_update="false" label="12/31/2022" sequence="26" value="12/31/2022"/>
+                <element inactive="true" inactive_on_update="true" label="11/06/2021" sequence="27" value="11/06/2021"/>
+                <element inactive="true" inactive_on_update="true" label="11/20/2021" sequence="28" value="11/20/2021"/>
+                <element inactive="true" inactive_on_update="true" label="12/04/2021" sequence="29" value="12/04/2021"/>
+                <element inactive="true" inactive_on_update="true" label="12/18/2021" sequence="30" value="12/18/2021"/>
             </choice>
         </element>
         <element display="true" label="History" max_length="4000" name="history" type="journal"/>
