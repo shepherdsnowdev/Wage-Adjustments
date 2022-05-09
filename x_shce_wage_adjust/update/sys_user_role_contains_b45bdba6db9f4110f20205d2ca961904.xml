@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_shce_wage_adjust.manager" name="x_shce_wage_adjust.manager">99a6f193db0ca490daa50825ca961965</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-09 19:30:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b45bdba6db9f4110f20205d2ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_shce_wage_adjust.manager</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_user_role_contains_b45bdba6db9f4110f20205d2ca961904</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-09 19:30:11</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

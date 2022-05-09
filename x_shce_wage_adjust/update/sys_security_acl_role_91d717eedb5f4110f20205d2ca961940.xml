@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-09 19:14:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>91d717eedb5f4110f20205d2ca961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.shce.wage-adjustment-workspace.*.x_shce_wage_adjust.approver</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_security_acl display_value="x.shce.wage-adjustment-workspace.*">d1d717eedb5f4110f20205d2ca96193c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_91d717eedb5f4110f20205d2ca961940</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-09 19:14:55</sys_updated_on>
+        <sys_user_role display_value="x_shce_wage_adjust.approver" name="x_shce_wage_adjust.approver">57d15940db669410a2e5f482ba96193c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
