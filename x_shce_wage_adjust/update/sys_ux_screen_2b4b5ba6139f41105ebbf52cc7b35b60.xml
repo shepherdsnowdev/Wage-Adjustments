@@ -4,6 +4,36 @@
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
         <event_mappings>[ {
+  "eventMappingId" : "clddaaewdufaabbiibddrhhaaeeqyjaanbbb",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_shce_wage_adjust.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_shce_wage_adjust.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaa5861c530210105a20ddeeff7b12fd",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "uxr_app_shell_data_source_1",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "clddaaewdufaabbiiaddrhhaasahiiggxbo",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
   "eventMappingId" : "ckhffjjisfyaaaabboddhhhmwraaxeeaft",
   "isConfiguration" : false,
   "offRowStorageId" : null,
@@ -136,7 +166,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2b4b5ba6139f41105ebbf52cc7b35b60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Home default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -145,6 +175,6 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_ux_screen_2b4b5ba6139f41105ebbf52cc7b35b60</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-05-09 19:30:07</sys_updated_on>
+        <sys_updated_on>2022-05-10 17:13:38</sys_updated_on>
     </sys_ux_screen>
 </record_update>

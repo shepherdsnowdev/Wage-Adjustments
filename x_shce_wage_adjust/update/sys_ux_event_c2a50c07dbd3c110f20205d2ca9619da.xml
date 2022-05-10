@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_674b5ba6d59f4110e6ceb623d8684b61</event_name>
+        <interfaces/>
+        <label>UXR App Shell Data Source 1 REFRESH Relay (Home default)</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-10 17:13:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c2a50c07dbd3c110f20205d2ca9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UXR App Shell Data Source 1 REFRESH Relay (Home default)</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ux_event_c2a50c07dbd3c110f20205d2ca9619da</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-10 17:13:37</sys_updated_on>
+    </sys_ux_event>
+</record_update>
