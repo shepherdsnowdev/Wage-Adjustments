@@ -27,6 +27,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:15:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:29</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,6 +67,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:09:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -84,6 +87,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:29</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -103,6 +107,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:15:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -122,6 +127,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:16:31</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -141,6 +147,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:09:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -160,6 +167,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -179,6 +187,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -198,6 +207,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-08-04 19:02:30</sys_created_on>
             <sys_domain>global</sys_domain>

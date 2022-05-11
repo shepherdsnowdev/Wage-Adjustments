@@ -42,15 +42,15 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>43</sizeclass>
+        <sizeclass>930</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-07-31 18:45:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b384531e1b9a9810a649ece66e4bcbbc</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_id>ef049ea9db28a810934f92b6db961980</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_shce_wage_adjust_wage_adjustments</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_dictionary_x_shce_wage_adjust_wage_adjustments_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-09-08 11:15:16</sys_updated_on>
+        <sys_updated_on>2022-05-03 11:15:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

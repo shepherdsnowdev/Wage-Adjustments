@@ -4,6 +4,7 @@
         <angular_module/>
         <formatter>process_flow.xml</formatter>
         <name>Process Flow</name>
+        <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-11-10 21:11:48</sys_created_on>

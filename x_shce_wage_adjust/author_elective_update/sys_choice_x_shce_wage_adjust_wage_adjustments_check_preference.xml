@@ -7,7 +7,7 @@
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-07-31 19:23:18</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>e71d5f561bda9810a649ece66e4bcbe7</sys_id>
+            <sys_id>891452e9db28a810934f92b6db961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>check_preference</sys_name>
             <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -27,6 +27,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-07-31 19:23:18</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-16 18:50:07</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,6 +67,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-07-31 19:23:28</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -84,6 +87,7 @@
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-16 18:50:07</sys_created_on>
             <sys_domain>global</sys_domain>

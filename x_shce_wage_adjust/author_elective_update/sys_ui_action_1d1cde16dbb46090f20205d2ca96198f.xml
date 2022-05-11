@@ -79,7 +79,7 @@
         <reverted_from/>
         <source>331a18a1db5f5c10f20205d2ca9619d0</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-12-02 21:22:55</sys_created_on>
         <sys_id>01add696dbb46090f20205d2ca96195f</sys_id>

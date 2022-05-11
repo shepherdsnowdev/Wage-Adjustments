@@ -23,6 +23,7 @@
         <global>false</global>
         <help_tag>What information should I include?</help_tag>
         <help_text/>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions><![CDATA[<p>Include information such as:</p>
 <ul style="list-style-position: inside;"><li>What the employee was paid</li><li>What the employee should have been paid</li><li># of hours</li><li>Department #s</li></ul>]]></instructions>
@@ -34,6 +35,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -42,8 +44,11 @@
         <order>50</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text>Description</question_text>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -53,6 +58,7 @@
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>true</show_help>
@@ -77,6 +83,7 @@
         <tooltip/>
         <type>2</type>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
