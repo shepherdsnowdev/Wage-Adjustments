@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>How to use Wage Adjustments</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-09 19:30:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b4b5ba6259f411060b432aa7658b961</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>How to use Wage Adjustments</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ux_screen_type_6b4b5ba6259f411060b432aa7658b961</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-10 18:33:30</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ux_screen_type_6b4b5ba6259f411060b432aa7658b961</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>How to use Wage Adjustments</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2022-05-09 19:30:07</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6b4b5ba6259f411060b432aa7658b961</sys_id><sys_mod_count>1</sys_mod_count><sys_name>How to use Wage Adjustments</sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_update_name>sys_ux_screen_type_6b4b5ba6259f411060b432aa7658b961</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2022-05-10 18:33:30</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>-1153719706</payload_hash>
+        <record_name>How to use Wage Adjustments</record_name>
+        <reverted_from/>
+        <source>d0b0b14fdbcb8550f20205d2ca961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-10 18:33:30</sys_created_on>
+        <sys_id>d8f7d44bdb17c110f20205d2ca9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180af3f690c0000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-10 18:33:30</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>d0f7d44b6f17c110bd680ae90fd4eabe</update_guid>
+        <update_guid_history>d0f7d44b6f17c110bd680ae90fd4eabe:-1153719706,50f71cc78017c1100fb3beddfe8ecb24:-117978814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-10 19:10:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>49928acf3d254480a1cd4f514b7b5459</sys_id>
+        <sys_metadata>6b4b5ba6259f411060b432aa7658b961</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How to use Wage Adjustments</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_6b4b5ba6259f411060b432aa7658b961</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_6b4b5ba6259f411060b432aa7658b961">d8f7d44bdb17c110f20205d2ca9619be</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-10 19:10:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -304,8 +304,8 @@
               },
               "overrides" : {
                 "composition" : [ {
-                  "elementId" : "data_visualization_2",
-                  "elementLabel" : "Data visualization 2",
+                  "elementId" : "single_score_2",
+                  "elementLabel" : "Single score 2",
                   "propertyValues" : {
                     "scoreSize" : {
                       "type" : "JSON_LITERAL",
@@ -596,78 +596,45 @@
                       "conditional" : null,
                       "declarativeAction" : null,
                       "event" : {
-                        "apiName" : "x_shce_wage_adjust.NAV_ITEM_SELECTED_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
                         "payload" : {
-                          "type" : "MAP_CONTAINER",
-                          "container" : {
-                            "route" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : "simplelist"
-                            },
-                            "fields" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "table" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "table" ]
-                                  }
-                                }
-                              }
-                            },
-                            "params" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "listTitle" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "title" ]
-                                  }
-                                },
-                                "query" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "query" ]
-                                  }
-                                },
-                                "title" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "title" ]
-                                  }
-                                }
-                              }
-                            },
-                            "redirect" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "passiveNavigation" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "title" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "multiInstField" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "targetRoute" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : "current"
-                            },
-                            "external" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            }
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "propName" : "listQuery",
+                            "value" : "stateIN-1,2"
                           }
                         },
-                        "sysId" : "274b5ba6509f41108af74d55b326e661"
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
                       },
                       "operation" : null,
                       "targetId" : "ckhffnzkrgaaaaaagddhhhppsdrmzta",
+                      "type" : "EVENT"
+                    }, {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "propName" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "stateClicked"
+                            },
+                            "value" : {
+                              "type" : "EVENT_PAYLOAD_BINDING",
+                              "binding" : {
+                                "address" : [ "title" ]
+                              }
+                            }
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clddbbwcbccraabbggjjddrhhaamzddbpeddc",
                       "type" : "EVENT"
                     } ]
                   } ],
@@ -684,7 +651,7 @@
                   "isHero" : false,
                   "isNonDestructive" : false,
                   "styles" : {
-                    "background" : "rgb(var(--now-color_background--primary))",
+                    "background" : "#C6E8CE",
                     "box-sizing" : "border-box",
                     "grid-area" : "column2",
                     "height" : "100%"
@@ -982,74 +949,45 @@
                       "conditional" : null,
                       "declarativeAction" : null,
                       "event" : {
-                        "apiName" : "x_shce_wage_adjust.NAV_ITEM_SELECTED_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "propName" : "listQuery",
+                            "value" : "stateIN-2,1"
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clddaaewggbbfaabbiijjddrhhaapddcccjvxj",
+                      "type" : "EVENT"
+                    }, {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
                         "payload" : {
                           "type" : "MAP_CONTAINER",
                           "container" : {
-                            "route" : {
+                            "propName" : {
                               "type" : "JSON_LITERAL",
-                              "value" : "simplelist"
+                              "value" : "stateClicked"
                             },
-                            "fields" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "table" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "table" ]
-                                  }
-                                }
-                              }
-                            },
-                            "params" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "listTitle" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "title" ]
-                                  }
-                                },
-                                "query" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "query" ]
-                                  }
-                                }
-                              }
-                            },
-                            "redirect" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "passiveNavigation" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "title" : {
+                            "value" : {
                               "type" : "EVENT_PAYLOAD_BINDING",
                               "binding" : {
                                 "address" : [ "title" ]
                               }
-                            },
-                            "multiInstField" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "targetRoute" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "external" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
                             }
                           }
                         },
-                        "sysId" : "274b5ba6509f41108af74d55b326e661"
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
                       },
                       "operation" : null,
-                      "targetId" : "clddaaewggbbfaabbiijjddrhhaapddcccjvxj",
+                      "targetId" : "clddbbwbrzccaabbggaaddrhhaabbeebhhqmffk",
                       "type" : "EVENT"
                     } ]
                   } ],
@@ -1065,10 +1003,15 @@
                   },
                   "isHero" : false,
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "background" : "#FAF0E0",
+                    "width" : "initial",
+                    "height" : "initial",
+                    "max-width" : "50"
+                  }
                 }, {
-                  "elementId" : "single_score_2",
-                  "elementLabel" : "Single score 2",
+                  "elementId" : "single_score_3",
+                  "elementLabel" : "Single score 3",
                   "propertyValues" : {
                     "scoreSize" : {
                       "type" : "JSON_LITERAL",
@@ -1359,74 +1302,45 @@
                       "conditional" : null,
                       "declarativeAction" : null,
                       "event" : {
-                        "apiName" : "x_shce_wage_adjust.NAV_ITEM_SELECTED_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "propName" : "listQuery",
+                            "value" : "stateIN0,3"
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clddaaezvkxaabbjjeeddrhhaaffggoiirqmv",
+                      "type" : "EVENT"
+                    }, {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
                         "payload" : {
                           "type" : "MAP_CONTAINER",
                           "container" : {
-                            "route" : {
+                            "propName" : {
                               "type" : "JSON_LITERAL",
-                              "value" : "simplelist"
+                              "value" : "stateClicked"
                             },
-                            "fields" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "table" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "table" ]
-                                  }
-                                }
-                              }
-                            },
-                            "params" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "listTitle" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "title" ]
-                                  }
-                                },
-                                "query" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "query" ]
-                                  }
-                                }
-                              }
-                            },
-                            "redirect" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "passiveNavigation" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "title" : {
+                            "value" : {
                               "type" : "EVENT_PAYLOAD_BINDING",
                               "binding" : {
                                 "address" : [ "title" ]
                               }
-                            },
-                            "multiInstField" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "targetRoute" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : "current"
-                            },
-                            "external" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
                             }
                           }
                         },
-                        "sysId" : "274b5ba6509f41108af74d55b326e661"
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
                       },
                       "operation" : null,
-                      "targetId" : "clddaaezvkxaabbjjeeddrhhaaffggoiirqmv",
+                      "targetId" : "clddbbwcmkfaabbggjddrhhaacdnniiybbbb",
                       "type" : "EVENT"
                     } ]
                   } ],
@@ -1442,10 +1356,12 @@
                   },
                   "isHero" : false,
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "background" : "#EFCBCF"
+                  }
                 }, {
-                  "elementId" : "single_score_3",
-                  "elementLabel" : "Single score 3",
+                  "elementId" : "single_score_4",
+                  "elementLabel" : "Single score 4",
                   "propertyValues" : {
                     "scoreSize" : {
                       "type" : "JSON_LITERAL",
@@ -1535,7 +1451,7 @@
                     },
                     "showHeaderSeparator" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : false
                     },
                     "title" : {
                       "type" : "TRANSLATION_LITERAL",
@@ -1736,74 +1652,45 @@
                       "conditional" : null,
                       "declarativeAction" : null,
                       "event" : {
-                        "apiName" : "x_shce_wage_adjust.NAV_ITEM_SELECTED_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "propName" : "listQuery",
+                            "value" : "state=4"
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clddaaghhrddhaabbbeddrhhaameecctiiaeel",
+                      "type" : "EVENT"
+                    }, {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
                         "payload" : {
                           "type" : "MAP_CONTAINER",
                           "container" : {
-                            "route" : {
+                            "propName" : {
                               "type" : "JSON_LITERAL",
-                              "value" : "simplelist"
+                              "value" : "stateClicked"
                             },
-                            "fields" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "table" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "table" ]
-                                  }
-                                }
-                              }
-                            },
-                            "params" : {
-                              "type" : "MAP_CONTAINER",
-                              "container" : {
-                                "listTitle" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "title" ]
-                                  }
-                                },
-                                "query" : {
-                                  "type" : "EVENT_PAYLOAD_BINDING",
-                                  "binding" : {
-                                    "address" : [ "params", "query" ]
-                                  }
-                                }
-                              }
-                            },
-                            "redirect" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "passiveNavigation" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "title" : {
+                            "value" : {
                               "type" : "EVENT_PAYLOAD_BINDING",
                               "binding" : {
                                 "address" : [ "title" ]
                               }
-                            },
-                            "multiInstField" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "targetRoute" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
-                            },
-                            "external" : {
-                              "type" : "JSON_LITERAL",
-                              "value" : null
                             }
                           }
                         },
-                        "sysId" : "274b5ba6509f41108af74d55b326e661"
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
                       },
                       "operation" : null,
-                      "targetId" : "clddaaghhrddhaabbbeddrhhaameecctiiaeel",
+                      "targetId" : "clddbbwddhheaabbggsddrhhaaboddhhnxgx",
                       "type" : "EVENT"
                     } ]
                   } ],
@@ -1819,13 +1706,15 @@
                   },
                   "isHero" : false,
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "background" : "#1AB064"
+                  }
                 } ],
                 "layout" : {
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"element_id":"single_score_1","styles":{}},{"rules":{},"styles":{"grid-area":"column2"},"element_id":"data_visualization_2"},{"element_id":"single_score_2","styles":{}},{"element_id":"single_score_3","styles":{}}],
+                    "items" : [{"element_id":"single_score_1","styles":{}},{"rules":{},"styles":{"grid-area":"column2"},"element_id":"single_score_2"},{"element_id":"single_score_3","styles":{}},{"element_id":"single_score_4","styles":{}}],
                     "root" : null,
                     "rules" : null,
                     "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"var(--now-static-space--lg)"},
@@ -1910,11 +1799,11 @@
           "value" : false
         },
         "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Wage Adjustment Requests",
-            "comment" : ""
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "2.0.0",
+            "inlineScript" : null,
+            "scriptSysId" : "c79bd95fdb570110daa50825ca9619f2"
           }
         },
         "type" : {
@@ -2045,7 +1934,7 @@
                 },
                 "limit" : {
                   "type" : "JSON_LITERAL",
-                  "value" : 20
+                  "value" : 15
                 },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
@@ -2448,17 +2337,114 @@
               "isHero" : false,
               "isNonDestructive" : false,
               "styles" : { }
+            }, {
+              "elementId" : "button_1",
+              "elementLabel" : "Button 1",
+              "propertyValues" : {
+                "variant" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "secondary"
+                },
+                "size" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "md"
+                },
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Create new Wage Adjustment",
+                    "comment" : ""
+                  }
+                },
+                "icon" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "document-plus-outline"
+                },
+                "disabled" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "tooltipContent" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "configAria" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : { }
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "clddbbuopgggaahhruddrhhaarffejfhhu",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                "sourceEventCorrelationId" : null,
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : {
+                    "apiName" : "x_shce_wage_adjust.NAV_ITEM_SELECTED_RELAY_674b5ba6d59f4110e6ceb623d8684b61",
+                    "payload" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : {
+                        "route" : "record",
+                        "fields" : {
+                          "table" : "x_shce_wage_adjust_wage_adjustments",
+                          "sysId" : "-1"
+                        },
+                        "params" : null,
+                        "redirect" : null,
+                        "passiveNavigation" : null,
+                        "title" : null,
+                        "multiInstField" : null,
+                        "targetRoute" : null,
+                        "external" : null
+                      }
+                    },
+                    "sysId" : "274b5ba6509f41108af74d55b326e661"
+                  },
+                  "operation" : null,
+                  "targetId" : "clddbbuopgggaahhrvddrhhaaevcasceez",
+                  "type" : "EVENT"
+                } ]
+              } ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : { }
             } ],
             "layout" : {
               "default" : {
                 "children" : null,
                 "isInline" : null,
-                "items" : [{"rules":{},"styles":{"grid-area":"main"},"element_id":"list__simple_1"}],
+                "items" : [{"element_id":"button_1","styles":{}},{"rules":{},"styles":{"grid-area":"main"},"element_id":"list__simple_1"}],
                 "root" : null,
                 "rules" : null,
-                "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
+                "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","grid-auto-flow":"column","justify-items":"start","align-items":"start","align-content":"start","justify-content":"start","display":"flex","flex-direction":"column"},
                 "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                "type" : "grid"
+                "type" : "flex"
               },
               "version" : "3.0.0"
             }
@@ -2469,16 +2455,13 @@
           },
           "isHero" : false,
           "isNonDestructive" : false,
-          "styles" : {
-            "width" : "100%",
-            "height" : "100%"
-          }
+          "styles" : { }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"rules":{},"styles":{"flex":"1","grid-area":"main"},"element_id":"container_1"}],
+            "items" : [{"element_id":"button_1","styles":{}},{"rules":{},"styles":{"flex":"1","grid-area":"main"},"element_id":"container_1"}],
             "root" : null,
             "rules" : null,
             "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
@@ -2502,7 +2485,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"rules":{},"styles":{},"element_id":"container_2"},{"rules":{},"styles":{},"element_id":"myWork"}],
+        "items" : [{"rules":{},"styles":{},"element_id":"container_2"},{"rules":{},"styles":{},"element_id":"myWork"},{"element_id":"button_1","styles":{}}],
         "root" : null,
         "rules" : {},
         "styles" : {"height":"100%","flex-direction":"column","display":"flex","padding":"var(--now-static-space--lg)"},
@@ -2520,6 +2503,78 @@
   "isNonDestructive" : false,
   "styles" : {
     "height" : "100%"
+  }
+}, {
+  "elementId" : "modal_viewport_1",
+  "elementLabel" : "Modal Viewport 1",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "disableDismiss" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "9c2e3b0978b3250ef3081204f151026a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "viewport_ect",
+      "elementLabel" : "Viewport 1",
+      "propertyValues" : {
+        "dynamicTabData" : ""
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "MACROPONENT_VIEWPORT_HEADLESS",
+        "type" : "MACROPONENT_VIEWPORT_HEADLESS"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"viewport_ect","styles":{"width":"100%"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","margin-top":"3rem"},
+        "templateId" : null,
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
   }
 } ]</composition>
         <da_relay_models/>
@@ -2554,6 +2609,9 @@
   "message" : "Collapse container to hide contents",
   "comment" : ""
 }, {
+  "message" : "Create new Wage Adjustment",
+  "comment" : ""
+}, {
   "message" : "Denied",
   "comment" : ""
 }, {
@@ -2567,9 +2625,6 @@
   "comment" : ""
 }, {
   "message" : "Task",
-  "comment" : ""
-}, {
-  "message" : "Wage Adjustment Requests",
   "comment" : ""
 }, {
   "message" : "Wage Adjustment Requests by State",
@@ -2591,7 +2646,7 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : null
+    "value" : "All"
   }
 }, {
   "name" : "listQuery",
@@ -2610,7 +2665,7 @@
         <sys_created_on>2022-05-09 19:30:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>674b5ba6d59f4110e6ceb623d8684b61</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -2618,6 +2673,6 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_ux_macroponent_674b5ba6d59f4110e6ceb623d8684b61</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-05-10 18:01:38</sys_updated_on>
+        <sys_updated_on>2022-05-11 18:20:04</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

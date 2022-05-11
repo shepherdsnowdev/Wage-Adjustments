@@ -3,7 +3,9 @@
         <active>true</active>
         <category display_value="Wage Adjustments">2c5b9ba6db9f4110f20205d2ca9619a9</category>
         <columns>number,sys_created_on,state,employee_name,date_of_request,for_pay_period_ending</columns>
-        <condition/>
+        <condition table="x_shce_wage_adjust_wage_adjustments">state=4^EQ<item display_value="Paid" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <configuration display_value="Wage Adjustments_menu_config">605b9ba6db9f4110f20205d2ca9619a8</configuration>
         <group_by_column/>
         <groups/>
@@ -51,27 +53,27 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>10</order>
+        <order>50</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2022-05-09 19:30:10</sys_created_on>
+        <sys_created_on>2022-05-11 14:02:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>2c5b9ba6db9f4110f20205d2ca9619ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>All Requests</sys_name>
+        <sys_id>f163a05fdb530110daa50825ca96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paid</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
-        <sys_update_name>sys_ux_list_2c5b9ba6db9f4110f20205d2ca9619ab</sys_update_name>
+        <sys_update_name>sys_ux_list_f163a05fdb530110daa50825ca96198a</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-05-11 13:54:57</sys_updated_on>
+        <sys_updated_on>2022-05-11 14:02:04</sys_updated_on>
         <table>x_shce_wage_adjust_wage_adjustments</table>
-        <title>All Requests</title>
+        <title>Paid</title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>
