@@ -325,7 +325,7 @@
                     },
                     "showScoreUpdateTime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : false
                     },
                     "showZero" : {
                       "type" : "JSON_LITERAL",
@@ -682,7 +682,7 @@
                     },
                     "showScoreUpdateTime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : false
                     },
                     "showZero" : {
                       "type" : "JSON_LITERAL",
@@ -878,7 +878,7 @@
                     },
                     "enableRealTimeUpdate" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : true
                     },
                     "enableDrilldown" : {
                       "type" : "JSON_LITERAL",
@@ -1035,7 +1035,7 @@
                     },
                     "showScoreUpdateTime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : false
                     },
                     "showZero" : {
                       "type" : "JSON_LITERAL",
@@ -1231,7 +1231,7 @@
                     },
                     "enableRealTimeUpdate" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : true
                     },
                     "enableDrilldown" : {
                       "type" : "JSON_LITERAL",
@@ -1385,7 +1385,7 @@
                     },
                     "showScoreUpdateTime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : false
                     },
                     "showZero" : {
                       "type" : "JSON_LITERAL",
@@ -1581,7 +1581,7 @@
                     },
                     "enableRealTimeUpdate" : {
                       "type" : "JSON_LITERAL",
-                      "value" : null
+                      "value" : true
                     },
                     "enableDrilldown" : {
                       "type" : "JSON_LITERAL",
@@ -1934,7 +1934,7 @@
                 },
                 "limit" : {
                   "type" : "JSON_LITERAL",
-                  "value" : 15
+                  "value" : 10
                 },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
@@ -1954,15 +1954,15 @@
                 },
                 "hideHeader" : {
                   "type" : "JSON_LITERAL",
-                  "value" : false
+                  "value" : true
                 },
                 "hideTitle" : {
                   "type" : "JSON_LITERAL",
-                  "value" : true
+                  "value" : false
                 },
                 "hideTitleRowCount" : {
                   "type" : "JSON_LITERAL",
-                  "value" : true
+                  "value" : false
                 },
                 "hideRefreshButton" : {
                   "type" : "JSON_LITERAL",
@@ -2121,8 +2121,10 @@
                   "value" : ""
                 },
                 "refreshRequested" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
+                  "type" : "STATE_BINDING",
+                  "binding" : {
+                    "address" : [ "currentTimestamp" ]
+                  }
                 },
                 "fixedQuery" : {
                   "type" : "JSON_LITERAL",
@@ -2434,12 +2436,47 @@
               "isHero" : false,
               "isNonDestructive" : false,
               "styles" : { }
+            }, {
+              "elementId" : "stylized_text_2",
+              "elementLabel" : "Stylized text 2",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "(refreshes every 10 seconds)",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : { }
             } ],
             "layout" : {
               "default" : {
                 "children" : null,
                 "isInline" : null,
-                "items" : [{"element_id":"button_1","styles":{}},{"rules":{},"styles":{"grid-area":"main"},"element_id":"list__simple_1"}],
+                "items" : [{"element_id":"button_1","styles":{}},{"element_id":"stylized_text_2","styles":{}},{"rules":{},"styles":{"grid-area":"main"},"element_id":"list__simple_1"}],
                 "root" : null,
                 "rules" : null,
                 "styles" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","grid-auto-flow":"column","justify-items":"start","align-items":"start","align-content":"start","justify-content":"start","display":"flex","flex-direction":"column"},
@@ -2585,7 +2622,20 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "c08920d1dbeb4910daa50825ca9619cf"
+    },
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "clddakbwrzaabbggcddrhhaashijjcxddw",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -2603,6 +2653,9 @@
         <name>Home</name>
         <props>[ ]</props>
         <required_translations>[ {
+  "message" : "(refreshes every 10 seconds)",
+  "comment" : ""
+}, {
   "message" : "Approved",
   "comment" : ""
 }, {
@@ -2646,11 +2699,33 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : "All"
+    "value" : "Submitted"
   }
 }, {
   "name" : "listQuery",
   "label" : "listQuery",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "stateIN-2,1"
+  }
+}, {
+  "name" : "currentTimestamp",
+  "label" : "currentTimestamp",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "intervalId",
+  "label" : "intervalId",
   "fieldType" : "",
   "valueType" : "",
   "shape" : "",
@@ -2665,7 +2740,7 @@
         <sys_created_on>2022-05-09 19:30:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>674b5ba6d59f4110e6ceb623d8684b61</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -2673,6 +2748,6 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sys_ux_macroponent_674b5ba6d59f4110e6ceb623d8684b61</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-05-11 18:20:04</sys_updated_on>
+        <sys_updated_on>2022-05-17 19:43:30</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
