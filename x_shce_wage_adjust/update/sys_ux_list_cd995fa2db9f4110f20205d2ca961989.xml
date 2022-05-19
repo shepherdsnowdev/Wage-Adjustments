@@ -4,7 +4,7 @@
         <category display_value="Wage Adjustments">e315dfeadb5f4110f20205d2ca9619ed</category>
         <columns>number,sys_created_on,state,employee_name,date_of_request,for_pay_period_ending,waf_creator,manager_to_approve</columns>
         <condition/>
-        <configuration display_value="Wage Adjustment Menu Config">75e49baadb5f4110f20205d2ca9619f8</configuration>
+        <configuration/>
         <group_by_column/>
         <groups/>
         <hide_cell_filter>false</hide_cell_filter>

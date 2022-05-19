@@ -6,7 +6,7 @@
         <condition table="x_shce_wage_adjust_wage_adjustments">stateIN-2,1^EQ<item display_value="-2,1" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-2,1"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
-        <configuration display_value="Wage Adjustment Menu Config">75e49baadb5f4110f20205d2ca9619f8</configuration>
+        <configuration/>
         <group_by_column/>
         <groups/>
         <hide_cell_filter>false</hide_cell_filter>
