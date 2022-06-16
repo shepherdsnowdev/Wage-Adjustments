@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Shepherd Stars Config">31fb184fd517c110325760f7c4f51785</app_config>
+        <description/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Record Test Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">fe7b5c67dba30550daa50825ca961939</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-24 18:21:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>708bdce7dba30550daa50825ca961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Test Agent assist</sys_name>
+        <sys_package display_value="Stars" source="x_shce_stars">2f0669eedb57e010daa50825ca9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ux_app_route_708bdce7dba30550daa50825ca961955</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-24 18:21:45</sys_updated_on>
+    </sys_ux_app_route>
+</record_update>

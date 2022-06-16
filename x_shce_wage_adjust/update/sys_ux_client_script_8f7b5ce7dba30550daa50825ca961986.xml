@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">fe7b5c67dba30550daa50825ca961939</macroponent>
+        <name>Set Related Item Content</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    var resultTabContent = {
+  ...api.state.relatedTabContent,
+  ...event.payload.relatedTabContent,
+};
+    api.setState('relatedTabContent', resultTabContent);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-05-24 18:21:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f7b5ce7dba30550daa50825ca961986</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Related Item Content</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ux_client_script_8f7b5ce7dba30550daa50825ca961986</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-05-24 18:25:33</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
