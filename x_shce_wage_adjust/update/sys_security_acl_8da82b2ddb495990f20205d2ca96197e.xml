@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_shce_wage_adjust_wage_adjustment_calculations</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-08-01 17:44:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8da82b2ddb495990f20205d2ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_shce_wage_adjust_wage_adjustment_calculations</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_security_acl_8da82b2ddb495990f20205d2ca96197e</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:44:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

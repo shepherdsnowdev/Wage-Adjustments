@@ -14,20 +14,6 @@
             <sys_updated_by>DLADMIN</sys_updated_by>
             <sys_updated_on>2020-11-10 22:05:24</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2022-05-10 16:44:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2feebf7edb93c110f20205d2ca9619d0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_shce_wage_adjust_wage_adjustments" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">cdb3d463db539450f20205d2ca96190e</sys_ui_form>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_shce_wage_adjust_wage_adjustments" sys_domain="global" view="Default view">d7eebf7edb93c110f20205d2ca9619ce</sys_ui_section>
-            <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2022-05-10 16:44:13</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <roles/>

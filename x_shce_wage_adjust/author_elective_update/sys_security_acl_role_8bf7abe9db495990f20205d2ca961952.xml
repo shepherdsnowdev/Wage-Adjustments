@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-08-01 17:41:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bf7abe9db495990f20205d2ca961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.shce.wage-adjustments.*.x_shce_wage_adjust.WAF Payors</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_security_acl display_value="x.shce.wage-adjustments.*">4ff7abe9db495990f20205d2ca96194f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8bf7abe9db495990f20205d2ca961952</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:41:27</sys_updated_on>
+        <sys_user_role display_value="x_shce_wage_adjust.WAF Payors" name="x_shce_wage_adjust.WAF Payors">76f76be9db495990f20205d2ca961938</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_security_acl_role_8bf7abe9db495990f20205d2ca961952</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2022-08-01 17:41:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8bf7abe9db495990f20205d2ca961952</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.shce.wage-adjustments.*.x_shce_wage_adjust.WAF Payors</sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_security_acl display_value="x.shce.wage-adjustments.*">4ff7abe9db495990f20205d2ca96194f</sys_security_acl><sys_update_name>sys_security_acl_role_8bf7abe9db495990f20205d2ca961952</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2022-08-01 17:41:27</sys_updated_on><sys_user_role display_value="x_shce_wage_adjust.WAF Payors" name="x_shce_wage_adjust.WAF Payors">76f76be9db495990f20205d2ca961938</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-307827685</payload_hash>
+        <record_name>x.shce.wage-adjustments.*.x_shce_wage_adjust.WAF Payors</record_name>
+        <reverted_from/>
+        <source>d0b0b14fdbcb8550f20205d2ca961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-08-01 17:41:27</sys_created_on>
+        <sys_id>cbf7abe9db495990f20205d2ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1825a7f95c50000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:41:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c3f7abe9d049599092a6a664e1e03154</update_guid>
+        <update_guid_history>c3f7abe9d049599092a6a664e1e03154:-307827685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 08-01-2022 01:42:54 PM">d458632ddb495990f20205d2ca9619da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-08-01 17:42:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0c2d0b86930e482481ed22f647aa6784</sys_id>
+        <sys_metadata>8bf7abe9db495990f20205d2ca961952</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.shce.wage-adjustments.*.x_shce_wage_adjust.WAF Payors</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent display_value="x.shce.wage-adjustments.*">4ff7abe9db495990f20205d2ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8bf7abe9db495990f20205d2ca961952</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8bf7abe9db495990f20205d2ca961952">cbf7abe9db495990f20205d2ca961954</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:42:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

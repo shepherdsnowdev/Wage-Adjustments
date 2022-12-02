@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_glide_certificates_glideencrypter">8994cbe3ff23201022f462aa453bf13d</crypto_module>
+        <crypto_spec display_value="com_glide_certificates_glideencrypter --- Symmetric Key Wrapping/Unwrapping">0594cbe3ff23201022f462aa453bf13f</crypto_spec>
+        <granular_operation/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>f57f81e7db9fee84ff27d5b0cf961933</owner>
+        <policy_name>AutoGen-scope-x_shce_wage_adjust-global.com_glide_certificates_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash/>
+        <script_table/>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2022-08-01 17:20:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a1323a1db495990f20205d2ca9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-scope-x_shce_wage_adjust-global.com_glide_certificates_glideencrypter</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_5a1323a1db495990f20205d2ca9619aa</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2022-08-01 17:20:06</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</target_scope>
+        <target_script/>
+        <type>3</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>
