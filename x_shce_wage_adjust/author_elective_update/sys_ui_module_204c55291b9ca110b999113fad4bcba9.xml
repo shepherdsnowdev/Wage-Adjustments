@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Wage Adjustments">2c4c55291b9ca110b999113fad4bcba6</application>
+        <filter/>
+        <name>Data Lists</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_shce_wage_adjust.data_lists_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2023-01-09 20:55:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>204c55291b9ca110b999113fad4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Lists</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_update_name>sys_ui_module_204c55291b9ca110b999113fad4bcba9</sys_update_name>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2023-01-09 20:55:02</sys_updated_on>
+        <table>x_shce_wage_adjust_data_lists</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</application>
+        <file_path/>
+        <instance_id>f57f81e7db9fee84ff27d5b0cf961933</instance_id>
+        <instance_name>shepherddev</instance_name>
+        <name>sys_ui_module_204c55291b9ca110b999113fad4bcba9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Wage Adjustments">2c4c55291b9ca110b999113fad4bcba6</application><filter/><name>Data Lists</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_shce_wage_adjust.data_lists_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>DLADMIN</sys_created_by><sys_created_on>2023-01-09 20:55:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>204c55291b9ca110b999113fad4bcba9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Data Lists</sys_name><sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope><sys_update_name>sys_ui_module_204c55291b9ca110b999113fad4bcba9</sys_update_name><sys_updated_by>DLADMIN</sys_updated_by><sys_updated_on>2023-01-09 20:55:02</sys_updated_on><table>x_shce_wage_adjust_data_lists</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1436352222</payload_hash>
+        <record_name>Data Lists</record_name>
+        <reverted_from/>
+        <source>f9eb9de51b9ca110b999113fad4bcb98</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2023-01-09 20:55:02</sys_created_on>
+        <sys_id>604c55291b9ca110b999113fad4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1859850ae620000001</sys_recorded_at>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2023-01-09 20:55:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>684c55295b9ca110790b5cda17626faa</update_guid>
+        <update_guid_history>684c55295b9ca110790b5cda17626faa:-1436352222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DLADMIN</sys_created_by>
+        <sys_created_on>2023-01-09 20:59:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>5803a0cacf414ad2864841c928f02381</sys_id>
+        <sys_metadata>204c55291b9ca110b999113fad4bcba9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data Lists</sys_name>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
+        <sys_scope_delete display_value="">75e7ec263ea1483db8852ed8c02ef721</sys_scope_delete>
+        <sys_update_name>sys_ui_module_204c55291b9ca110b999113fad4bcba9</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_204c55291b9ca110b999113fad4bcba9">604c55291b9ca110b999113fad4bcbab</sys_update_version>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2023-01-09 20:59:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

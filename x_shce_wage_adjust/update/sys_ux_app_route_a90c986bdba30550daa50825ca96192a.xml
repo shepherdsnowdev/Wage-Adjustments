@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon>document-outline</icon>
         <name>Record Test Template</name>

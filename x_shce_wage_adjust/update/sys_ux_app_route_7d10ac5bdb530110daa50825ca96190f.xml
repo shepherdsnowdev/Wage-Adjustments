@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
         <description/>
+        <extension_point/>
         <fields>table,sysId,pageTitle,pageSubTitle,useDomain</fields>
         <icon/>
         <name>Wage Adjustment Lists Interceptor</name>
@@ -18,7 +19,7 @@
         <sys_id>7d10ac5bdb530110daa50825ca96190f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Wage Adjustment Lists Interceptor</sys_name>
-        <sys_package display_value="Problem Management - Service Operations Workspace" source="sn_sow_problem">54a81ee10b11301039dd818393673a5c</sys_package>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>

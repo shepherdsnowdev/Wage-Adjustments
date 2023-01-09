@@ -3499,8 +3499,10 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events/>
         <events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events>b94818a0cc2cebbe41369181e4c8d6a6</handled_events>
         <interactions/>
@@ -3533,6 +3535,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Knowledge View</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",

@@ -774,8 +774,10 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>5a979750533f101035beddeeff7b1231</dispatched_events>
         <events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -795,6 +797,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Taxonomy Topic Selection</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",

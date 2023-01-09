@@ -12,7 +12,6 @@
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-11-19 15:03:25</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>4b1a428edb246050daa50825ca9619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Number of Hours</sys_name>
             <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>

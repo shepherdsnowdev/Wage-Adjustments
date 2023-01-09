@@ -192,8 +192,10 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events>3c79bf2aff6f501035be517f793bf10a,5581c8e0537f101035beddeeff7b1242</dispatched_events>
         <events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -213,6 +215,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>DA Modal Multi-Record Associator</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "userGivenTable",
   "label" : "userGivenTable",

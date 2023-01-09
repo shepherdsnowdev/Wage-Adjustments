@@ -606,8 +606,10 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>cbe77c46535630105016ddeeff7b1258</dispatched_events>
         <events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -628,6 +630,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>CI Infrastructure Relationships</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "ciSysId",
   "label" : "ciSysId",

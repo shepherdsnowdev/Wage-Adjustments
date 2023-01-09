@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
+        <extension_point/>
         <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
         <icon/>
         <name>Notification tray</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
         <route_type>notificationtray</route_type>
         <screen_type display_value="Notification tray">2b4b5ba6fc9f41109f99ba7787c32962</screen_type>

@@ -44,7 +44,7 @@
         <update_guid_history>85a82b2d6f495990febd4a57c70bd988:1583792768</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 08-01-2022 01:46:33 PM">bd296b6ddb495990f20205d2ca96199b</sys_audit_delete>
+        <sys_audit_delete display_value="">bd296b6ddb495990f20205d2ca96199b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2022-08-01 17:46:33</sys_created_on>

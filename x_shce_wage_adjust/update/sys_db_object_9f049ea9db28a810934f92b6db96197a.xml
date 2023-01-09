@@ -9,7 +9,6 @@
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Wage Adjustments</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -19,9 +18,7 @@
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">bae25963db132200edafd92b5e961980</super_class>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-07-31 18:45:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>

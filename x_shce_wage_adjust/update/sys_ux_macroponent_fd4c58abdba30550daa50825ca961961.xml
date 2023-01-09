@@ -409,8 +409,10 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events/>
         <events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -430,6 +432,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Business process reject modal</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",

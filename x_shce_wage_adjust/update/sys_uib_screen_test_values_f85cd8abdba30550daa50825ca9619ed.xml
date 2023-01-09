@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config/>
-        <screen display_value="Agent Assist">d31a696b1c5f4510d615362c1b962f75</screen>
+        <screen display_value="">d31a696b1c5f4510d615362c1b962f75</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2022-05-24 18:25:18</sys_created_on>

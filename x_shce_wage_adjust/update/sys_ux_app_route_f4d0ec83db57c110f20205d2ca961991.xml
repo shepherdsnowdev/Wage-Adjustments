@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>KB - Wage Adjustments</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>kb-wage-adjustments</route_type>
         <screen_type display_value="KB - Wage Adjustments">78d0ec83db57c110f20205d2ca961985</screen_type>

@@ -12,7 +12,6 @@
             <sys_created_by>DLADMIN</sys_created_by>
             <sys_created_on>2020-09-18 18:24:19</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>1d85e3c2db1f1050f20205d2ca9619ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Manager to Approve</sys_name>
             <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>

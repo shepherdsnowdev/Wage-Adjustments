@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config/>
         <description/>
+        <extension_point/>
         <fields/>
         <icon>circle-info-outline</icon>
         <name>Record Test Business process sidebar</name>
@@ -18,7 +19,7 @@
         <sys_id>f88bdce7dba30550daa50825ca96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Record Test Business process sidebar</sys_name>
-        <sys_package display_value="CMDB - Business Process" source="com.snc.cmdb_business_process">9bfcfb391b2330106f43ed34604bcb81</sys_package>
+        <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>

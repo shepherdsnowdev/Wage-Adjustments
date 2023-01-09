@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>100</order>
-        <role display_value="x_shce_wage_adjust.manager" name="x_shce_wage_adjust.manager">99a6f193db0ca490daa50825ca961965</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-10-29 14:19:39</sys_created_on>
