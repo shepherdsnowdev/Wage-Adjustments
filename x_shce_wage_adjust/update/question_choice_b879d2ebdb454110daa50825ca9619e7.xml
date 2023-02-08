@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <inactive>false</inactive>
+        <inactive>true</inactive>
         <order>4</order>
         <published_ref/>
         <question display_value="For Pay Period ending on...">95c0a180dba69410a2e5f482ba961980</question>
@@ -9,7 +9,7 @@
         <sys_created_on>2022-01-20 20:55:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b879d2ebdb454110daa50825ca9619e7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>02/12/2022</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -17,7 +17,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>question_choice_b879d2ebdb454110daa50825ca9619e7</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-01-20 20:55:52</sys_updated_on>
+        <sys_updated_on>2023-02-08 14:19:39</sys_updated_on>
         <text>02/12/2022</text>
         <value>02/12/2022</value>
     </question_choice>
