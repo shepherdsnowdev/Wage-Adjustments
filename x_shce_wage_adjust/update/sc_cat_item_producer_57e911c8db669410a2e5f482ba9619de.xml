@@ -13,7 +13,8 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p><span style="font-size: 10pt;">This is where the documentation for one-time payments will be.</span></p>
+<p> </p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -21,7 +22,7 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
@@ -89,15 +90,15 @@ producer.portal_redirect = "/ssp?id=generic_form_lp&table=x_shce_wage_adjust_wag
         <sys_created_on>2020-08-05 20:19:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>57e911c8db669410a2e5f482ba9619de</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Wage Adjustment Form</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sc_cat_item_producer_57e911c8db669410a2e5f482ba9619de</sys_update_name>
-        <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2022-08-01 18:38:24</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-01 18:14:53</sys_updated_on>
         <table_name>x_shce_wage_adjust_wage_adjustments</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,6 +106,7 @@ producer.portal_redirect = "/ssp?id=generic_form_lp&table=x_shce_wage_adjust_wag
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version>13</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

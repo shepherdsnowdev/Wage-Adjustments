@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field>for_pay_period_ending</field>
@@ -40,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>for_pay_period_ending</name>
-        <order>40</order>
+        <order>140</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -70,7 +72,7 @@
         <sys_created_on>2020-08-05 20:51:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>95c0a180dba69410a2e5f482ba961980</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>For Pay Period ending on...</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
@@ -78,7 +80,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>item_option_new_95c0a180dba69410a2e5f482ba961980</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-11-10 20:35:34</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:29:57</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

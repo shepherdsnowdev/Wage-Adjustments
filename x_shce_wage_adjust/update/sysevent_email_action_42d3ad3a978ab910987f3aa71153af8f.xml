@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Human Resources" name="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
         <collection>x_shce_wage_adjust_wage_adjustments</collection>
-        <condition table="x_shce_wage_adjust_wage_adjustments">stateCHANGESTO3^EQ<item display_value="Denied" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <condition table="x_shce_wage_adjust_wage_adjustments">stateCHANGESTO4^EQ<item display_value="Paid" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -44,41 +44,39 @@
 <p>&nbsp;</p>
 <p><strong>Description:</strong> ${description}</p>
 <p>&nbsp;</p>
-<p><strong>Denial Reason:</strong> ${denial_reason}</p>
-<p>&nbsp;</p>
 <p>Click here to view the Wage Adjustment form: ${URI}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>WAF - Notify mgr when HR denies WAF</name>
+        <name>WAF - Notify creator when HR pays WAF</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>manager_to_approve,waf_creator</recipient_fields>
+        <recipient_fields>waf_creator</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your Wage Adjustment form has been denied by Human Resources</subject>
+        <subject>Your Wage Adjustment form has been paid by Human Resources</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2020-09-22 17:39:00</sys_created_on>
+        <sys_created_on>2023-10-26 14:41:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ac8140afdbdf5450f20205d2ca96192f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>WAF - Notify mgr when HR denies WAF</sys_name>
+        <sys_id>42d3ad3a978ab910987f3aa71153af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WAF - Notify creator when HR pays WAF</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
-        <sys_update_name>sysevent_email_action_ac8140afdbdf5450f20205d2ca96192f</sys_update_name>
+        <sys_update_name>sysevent_email_action_42d3ad3a978ab910987f3aa71153af8f</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2023-10-26 14:34:18</sys_updated_on>
+        <sys_updated_on>2023-10-26 14:41:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
