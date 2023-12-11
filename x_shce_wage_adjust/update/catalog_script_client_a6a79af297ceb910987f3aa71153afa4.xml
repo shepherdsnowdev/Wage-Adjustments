@@ -30,7 +30,8 @@
 
     // If keywords are found, then keywordFound is True, which shows the warning text and checkbox field and makes the checkbox mandatory to prevent form submission.
     // If no keywords are found, then keywordFound is False, and everything stays hidden and not-mandatory and life goes happily on.
-    g_form.setVisible('warning_text', keywordFound);
+    g_form.setVisible('formatter', keywordFound);
+	g_form.setVisible('warning_text', keywordFound);
     g_form.setMandatory('validation_check', keywordFound);
     g_form.setVisible('validation_check', keywordFound);
 }]]></script>
@@ -41,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6a79af297ceb910987f3aa71153afa4</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Check for keywords in Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
@@ -50,7 +51,7 @@
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>catalog_script_client_a6a79af297ceb910987f3aa71153afa4</sys_update_name>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2023-12-01 18:09:26</sys_updated_on>
+        <sys_updated_on>2023-12-08 21:02:06</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>1</ui_type>
