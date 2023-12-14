@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_674b5ba6d59f4110e6ceb623d8684b61</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>UXR App Shell Data Source 1 REFRESH Relay (Home default)</label>
         <props>[]</props>

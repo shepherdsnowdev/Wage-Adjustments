@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="">d3ee4326db5f4110f20205d2ca961911</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Home">ec829f2adb5f4110f20205d2ca9619c1</macroponent>
         <macroponent_config>{

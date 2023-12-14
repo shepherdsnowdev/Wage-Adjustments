@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes>58d17acf0b531010a8b1c96237673a68</includes>
         <macroponent display_value="Agent assist">30eb906bdba30550daa50825ca96198d</macroponent>
         <name>agentAssistOpenRecordRouteMapping</name>

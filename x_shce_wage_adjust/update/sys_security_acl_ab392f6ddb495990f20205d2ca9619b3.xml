@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description/>
+        <local_or_existing>Local</local_or_existing>
         <name>x_shce_wage_adjust_wage_adjustment_calculations</name>
         <operation display_value="write">write</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2022-08-01 17:46:57</sys_created_on>

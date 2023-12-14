@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {&#13;
   "eventMappingId" : "ckdeecffptcaaaaaajddghheejjiaajjbbaaiim",&#13;
   "isConfiguration" : false,&#13;

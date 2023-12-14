@@ -4,6 +4,7 @@
         <api_name>x_shce_wage_adjust.Audience for appWage Adjustments</api_name>
         <description/>
         <name>Audience for appWage Adjustments</name>
+        <role_names/>
         <roles>57d15940db669410a2e5f482ba96193c,99a6f193db0ca490daa50825ca961965,b3429140db669410a2e5f482ba9619ef</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>DLADMIN</sys_created_by>

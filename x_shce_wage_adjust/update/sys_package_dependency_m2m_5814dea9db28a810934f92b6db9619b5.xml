@@ -3,11 +3,11 @@
         <dependency display_value="Task table schema" source="com.glide.task">7ae25963db132200edafd92b5e961980</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>DLADMIN</sys_created_by>
-        <sys_created_on>2020-07-31 18:45:55</sys_created_on>
+        <sys_created_on>2020-11-18 02:29:58</sys_created_on>
         <sys_id>5814dea9db28a810934f92b6db9619b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2020-07-31 18:45:55</sys_updated_on>
+        <sys_updated_on>2020-11-18 02:29:58</sys_updated_on>
     </sys_package_dependency_m2m>
 </record_update>

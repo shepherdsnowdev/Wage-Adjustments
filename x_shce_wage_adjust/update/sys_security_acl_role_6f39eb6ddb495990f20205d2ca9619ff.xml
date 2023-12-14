@@ -16,6 +16,5 @@
         <sys_updated_by>DLADMIN</sys_updated_by>
         <sys_updated_on>2022-08-01 17:46:56</sys_updated_on>
         <sys_user_role display_value="x_shce_wage_adjust.payor" name="x_shce_wage_adjust.payor">2b39eb6ddb495990f20205d2ca96199d</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

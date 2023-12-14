@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Wage Adjustments Config">634b5ba69b9f41103543e91ca7995f63</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>
         <macroponent display_value="List">2c08111d0fc21010036a83fa68767ef6</macroponent>
         <macroponent_config/>

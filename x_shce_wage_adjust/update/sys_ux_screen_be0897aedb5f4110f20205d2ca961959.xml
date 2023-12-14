@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Wage Adjustment Workspace">ddd717eedb5f4110f20205d2ca961935</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>
         <macroponent display_value="Agent assist">195fd4970f0210107d20409dc4767e0a</macroponent>
         <macroponent_config/>
