@@ -40,7 +40,7 @@
             <dependent_value/>
             <element>for_pay_period_ending</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>12/18/2022</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -50,16 +50,16 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>12/18/2022</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>for_pay_period_ending</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>01/01/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -69,9 +69,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>01/01/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -98,6 +98,44 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>12/31/2023</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:44:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:45:31</sys_updated_on>
+            <value>12/31/2023</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>01/14/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:45:48</sys_updated_on>
+            <value>01/14/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>01/15/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -107,9 +145,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>01/15/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -136,6 +174,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>01/28/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:45:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:46:00</sys_updated_on>
+            <value>01/28/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>01/29/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -145,9 +202,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>01/29/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -193,6 +250,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>02/11/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:47:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:47:27</sys_updated_on>
+            <value>02/11/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>02/12/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -202,9 +278,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>02/12/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -231,6 +307,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>02/25/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:47:44</sys_updated_on>
+            <value>02/25/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>02/26/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -240,9 +335,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:48</sys_updated_on>
             <value>02/26/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -269,6 +364,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>03/10/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:47:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:47:56</sys_updated_on>
+            <value>03/10/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>03/12/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -278,9 +392,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>03/12/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -307,6 +421,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>03/24/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:48:12</sys_updated_on>
+            <value>03/24/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>03/26/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -316,9 +449,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>03/26/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -345,6 +478,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>04/07/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:48:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:48:25</sys_updated_on>
+            <value>04/07/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>04/09/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -354,9 +506,9 @@
             <sys_created_on>2023-01-09 21:03:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:37</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>04/09/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -383,6 +535,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>04/21/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:48:42</sys_updated_on>
+            <value>04/21/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>04/23/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -392,9 +563,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>04/23/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -421,6 +592,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>05/05/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:48:55</sys_updated_on>
+            <value>05/05/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>05/07/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -430,9 +620,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>05/07/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -459,6 +649,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>05/19/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:49:10</sys_updated_on>
+            <value>05/19/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>05/21/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -468,9 +677,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>05/21/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -497,6 +706,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>06/02/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:49:26</sys_updated_on>
+            <value>06/02/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>06/04/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -506,9 +734,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:49</sys_updated_on>
             <value>06/04/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -535,6 +763,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>06/16/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:49:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:49:55</sys_updated_on>
+            <value>06/16/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>06/18/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -544,35 +791,35 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>06/18/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>for_pay_period_ending</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>-TBDTARGET-x_shce_wage_adjust_wage_adjustments</label>
+            <inactive>false</inactive>
+            <label>06/30/2024</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
             <sequence>14</sequence>
             <synonyms/>
             <sys_created_by>DLADMIN</sys_created_by>
-            <sys_created_on>2022-01-05 17:37:19</sys_created_on>
+            <sys_created_on>2024-01-08 18:50:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2022-01-05 17:37:19</sys_updated_on>
-            <value>-TBDTARGET-x_shce_wage_adjust_wage_adjustments</value>
+            <sys_updated_on>2024-01-08 18:50:05</sys_updated_on>
+            <value>06/30/2024</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>for_pay_period_ending</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>07/02/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -582,9 +829,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>07/02/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -611,6 +858,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>07/14/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:50:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:50:25</sys_updated_on>
+            <value>07/14/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>07/16/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -620,9 +886,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>07/16/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -649,6 +915,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>07/28/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:50:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:50:49</sys_updated_on>
+            <value>07/28/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>07/30/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -658,9 +943,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>07/30/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -687,6 +972,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>08/11/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:51:15</sys_updated_on>
+            <value>08/11/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>08/13/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -696,9 +1000,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>08/13/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -725,6 +1029,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>08/25/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:51:30</sys_updated_on>
+            <value>08/25/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>08/27/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -734,9 +1057,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>08/27/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -763,6 +1086,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>09/08/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:51:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:51:45</sys_updated_on>
+            <value>09/08/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>09/10/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -772,9 +1114,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>09/10/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -801,6 +1143,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>09/22/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:52:06</sys_updated_on>
+            <value>09/22/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>09/24/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -810,9 +1171,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:50</sys_updated_on>
             <value>09/24/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -839,6 +1200,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>10/06/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:53:49</sys_updated_on>
+            <value>10/06/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>10/08/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -848,9 +1228,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:51</sys_updated_on>
             <value>10/08/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -877,6 +1257,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>10/20/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:54:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:54:17</sys_updated_on>
+            <value>10/20/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>10/22/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -886,9 +1285,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:51</sys_updated_on>
             <value>10/22/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -915,6 +1314,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>11/03/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:55:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:55:12</sys_updated_on>
+            <value>11/03/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>11/05/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -924,9 +1342,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:51</sys_updated_on>
             <value>11/05/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -953,6 +1371,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>11/17/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:55:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:55:24</sys_updated_on>
+            <value>11/17/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>11/19/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -962,9 +1399,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:51</sys_updated_on>
             <value>11/19/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -991,6 +1428,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>12/01/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:55:37</sys_updated_on>
+            <value>12/01/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>12/03/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -1000,9 +1456,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:51</sys_updated_on>
             <value>12/03/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1029,6 +1485,25 @@
             <element>for_pay_period_ending</element>
             <hint/>
             <inactive>false</inactive>
+            <label>12/15/2024</label>
+            <language>en</language>
+            <name>x_shce_wage_adjust_wage_adjustments</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>DLADMIN</sys_created_by>
+            <sys_created_on>2024-01-08 18:55:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>DLADMIN</sys_updated_by>
+            <sys_updated_on>2024-01-08 18:55:53</sys_updated_on>
+            <value>12/15/2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>for_pay_period_ending</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>12/17/2023</label>
             <language>en</language>
             <name>x_shce_wage_adjust_wage_adjustments</name>
@@ -1038,9 +1513,9 @@
             <sys_created_on>2023-01-09 21:03:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>DLADMIN</sys_updated_by>
-            <sys_updated_on>2023-01-09 21:03:38</sys_updated_on>
+            <sys_updated_on>2024-01-08 18:39:47</sys_updated_on>
             <value>12/17/2023</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

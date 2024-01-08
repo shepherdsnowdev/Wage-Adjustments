@@ -23,7 +23,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_shce_wage_adjust</source>
-        <store_correlation_id>REPOAPP0001121886</store_correlation_id>
+        <store_correlation_id>REPOAPP0001144540</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -31,15 +31,15 @@
         <sys_created_by>DLADMIN</sys_created_by>
         <sys_created_on>2020-07-31 18:44:02</sys_created_on>
         <sys_id>ac2493da1b9a9810a649ece66e4bcbd2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>DLADMIN</sys_updated_by>
-        <sys_updated_on>2023-12-14 21:12:10</sys_updated_on>
+        <sys_updated_on>2024-01-08 18:56:33</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.9</version>
+        <version>1.0.10</version>
     </sys_app>
 </record_update>
