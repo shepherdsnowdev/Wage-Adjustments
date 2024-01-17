@@ -88,7 +88,7 @@ gs.addInfoMessage("Your request has been submitted to Human Resources.  You will
 
 // Redirects to special Portal page with breadcrumbs widget
 producer.portal_redirect = "/ssp?id=generic_form_lp&table=x_shce_wage_adjust_wage_adjustments&sys_id=" + current.sys_id.getDisplayValue() + "&view=sp";]]></script>
-        <short_description>Wage adjustment form</short_description>
+        <short_description>This form is used to request corrections to a team member's previously processed payroll. </short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -97,15 +97,15 @@ producer.portal_redirect = "/ssp?id=generic_form_lp&table=x_shce_wage_adjust_wag
         <sys_created_on>2020-08-05 20:19:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>57e911c8db669410a2e5f482ba9619de</sys_id>
-        <sys_mod_count>95</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>Wage Adjustment Form</sys_name>
         <sys_package display_value="Wage Adjustments" source="x_shce_wage_adjust">ac2493da1b9a9810a649ece66e4bcbd2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Wage Adjustments">ac2493da1b9a9810a649ece66e4bcbd2</sys_scope>
         <sys_update_name>sc_cat_item_producer_57e911c8db669410a2e5f482ba9619de</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-08 20:42:02</sys_updated_on>
+        <sys_updated_by>DLADMIN</sys_updated_by>
+        <sys_updated_on>2024-01-17 16:01:43</sys_updated_on>
         <table_name>x_shce_wage_adjust_wage_adjustments</table_name>
         <taxonomy_topic/>
         <template/>
@@ -113,7 +113,7 @@ producer.portal_redirect = "/ssp?id=generic_form_lp&table=x_shce_wage_adjust_wag
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>79</version>
+        <version>81</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
